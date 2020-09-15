@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<!-- Webpage of Juan Carlos Ruiz-García https://www.cemfi.es/~ruizgarcia/ -->
+<html lang="en">
+<head>
+<title>Juan Carlos Ruiz-García &#8210 References</title>    
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="JC Ruiz-García">
+    
+<!-- <meta name="description" content="Personal website of Juan Carlos Ruiz-García, PhD candidate in Economics - CEMFI"> -->
+    
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">    
+
+<style>  
+    
+    /* Style of the Body */
+    body{        
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9vw;
+        font-weight: 100;
+        background: #fdfdfd;
+        margin: auto;
+        overflow-y: scroll;
+    } 
+    
+    /* Style of the Header */
+    .header {
+        padding-bottom: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%; 
+        width: 90%; 
+        height: auto;
+        background: #fdfdfd;
+        margin: auto;       
+    }
+    
+        /* Two sections of the Header */
+        .wrapperh {
+            width: 100%;
+            height: auto;
+            display: table;
+            vertical-align: middle;        
+            margin: auto; 
+        }
+
+        .hleft {
+            width: 60%;
+            height: 20%;        
+            display: table-cell;
+            vertical-align: middle;
+            margin: auto; 
+        }  
+
+        .hright1 {
+            width: 40%;
+            height: 20%;        
+            display: table-cell;
+            vertical-align: top;
+            margin: auto; 
+        }
+
+        .hright2 {
+            width: 40%;
+            height: 20%;        
+            display: table-cell;
+            vertical-align: top;
+            margin: auto; 
+        }        
+
+        /* Navigation Bar of the Header */
+        .navbar {
+            float: right;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            background-color: white;
+        }
+
+        .navbar a {
+            font-size: 125%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: center;
+            text-decoration: none;
+            width: 20%; 
+            height: 100%; 
+            color: #666666; 
+            float: left;
+        }
+
+        .navbar a:hover {
+            background-color: #666666;
+            color: white;
+        }
+
+        .navbar a.active {
+            background-color: #3b5198;
+            color: white; 
+        }    
+    
+        /* Fonts of the Header */
+        .header h1 {  
+            padding-top: 1%;
+            padding-bottom: 1%;        
+            text-align: left;        
+            font-size: 275%;
+            line-height: 100%;
+            font-weight: 100;
+            color: #3b5198;
+            margin: auto;        
+        }  
+    
+    /* Body */
+ 
+        /* Links */    
+        a {
+            color: #666666;
+        }
+
+        a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        } 
+
+        /* Line */    
+        hr { 
+            display: block;
+            width: 80%;
+            border-left-width: 0;
+            border-right-width: 0;
+            border-top-width: 0;
+            border-bottom-width: thin;
+            border-style: solid;
+            border-color: #3b5198;
+        } 
+
+        /* Three sections of the Body */ 
+        .wrapperb {
+            padding-bottom: 0%;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0%;
+            width: 60%;
+            height: auto;
+            display: table;
+            vertical-align: middle;
+            margin: auto;
+        }   
+    
+            .bleft {    
+                width: 33.3%;
+                height: auto;        
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                margin: auto; 
+            }   
+
+            .bmiddle {
+                width: 33.3%;
+                height: auto;        
+                display: table-cell;
+                vertical-align: middle;
+                margin: auto; 
+            }
+
+            .bright {
+                width: 33.3%;
+                height: auto;        
+                display: table-cell;
+                vertical-align: middle;
+                margin: auto; 
+            }   
+    
+            /* Fonts of the Three Sections Body */
+
+            .wrapperb h1 {  
+                text-align: center;
+                font-size: 200%;
+                line-height: 100%;
+                font-weight: 100;
+                color: #3b5198;
+                margin: auto; 
+            }
+    
+            .wrapperb h2 {  
+                text-align: center;
+                font-size: 150%;
+                line-height: 100%;
+                font-weight: 100;
+                color: #af7714;
+                margin: auto; 
+            } 
+    
+            .wrapperb h3 {  
+                text-align: center;
+                font-size: 110%;
+                line-height: 100%;
+                font-weight: 100;
+                color: #af7714;
+                margin: auto; 
+            }     
+
+            .wrapperb p {  
+                text-align: center;
+                font-size: 100%;
+                line-height: 125%;
+                font-weight: 100;
+                color: #666666;
+                margin: auto; 
+            }    
+
+        /* The Footer */
+        .footer {
+            padding-bottom: 0.5%;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 1%;        
+            width: 100%;
+            height: auto;
+            background-color: #fdfdfd;
+            margin: auto; 
+        } 
+    
+            /* Fonts of the Footer */
+            .footer p {  
+                text-align: center;
+                font-size: 90%;
+                line-height: 100%;
+                font-weight: 100;
+                color: #666666; 
+                margin: auto; 
+            }
+    
+    /* Media Information for Different Devices */
+    
+        /* Phone */
+        @media only screen and (max-width: 450px) { 
+            
+            .header {
+                padding-left: 2.5%;
+                padding-right: 2.5%;
+                width: 95%; 
+                height: auto;
+                background: #fdfdfd;
+                margin: auto;       
+            }  
+
+                .hright1 {
+                    width: 20%;
+                    padding-left: 1.5%;
+                    padding-right: 1.5%;
+                    margin: auto;
+                }   
+
+                .hright2 {
+                    width: 20%;
+                    height: auto;
+                    vertical-align: middle;
+                } 
+            
+                .navbar {
+                    float: none;
+                    display: block;
+                }
+
+                .navbar a {
+                    font-size: 300%;
+                    width: 100%;
+                    height: 20%;
+                    vertical-align: middle;            
+                    margin: auto;
+                }             
+
+                .header h1 { 
+                    font-size: 550%;
+                }
+
+                .header h2 { 
+                    font-size: 350%;
+                }           
+
+            .wrapperb {
+                width: 95%;
+            }          
+            
+                .wrapperb h1 {  
+                    font-size: 480%;
+                }   
+
+                .wrapperb h2 {  
+                    font-size: 360%;
+                }
+
+                .wrapperb h3 {  
+                    font-size: 300%;
+                }     
+
+                .wrapperb p {  
+                    font-size: 240%; 
+                }             
+
+            .footer {
+                padding-top: 3%;
+            }
+
+                .footer p {  
+                    font-size: 180%;
+                }
+
+        }        
+
+        /* Ipad and Tablet */
+        @media only screen and (max-width: 1024.5px) { 
+
+            .header {
+                padding-left: 2.5%;
+                padding-right: 2.5%;
+                width: 95%; 
+                height: auto;
+                background: #fdfdfd;
+                margin: auto;       
+            }  
+
+                .hright1 {
+                    width: 20%;
+                    padding-left: 1.5%;
+                    padding-right: 1.5%;
+                    margin: auto;
+                }   
+
+                .hright2 {
+                    width: 20%;
+                    height: auto;
+                    vertical-align: middle;
+                } 
+            
+                .navbar {
+                    float: none;
+                    display: block;
+                }
+
+                .navbar a {
+                    font-size: 250%;
+                    width: 100%;
+                    height: 20%;
+                    vertical-align: middle;            
+                    margin: auto;
+                }              
+
+                .header h1 { 
+                    font-size: 550%;
+                }
+
+                .header h2 { 
+                    font-size: 350%;
+                }
+
+            .wrapperb {
+                width: 95%;
+            }          
+   
+                .wrapperb h1 {  
+                    font-size: 400%;
+                }   
+
+                .wrapperb h2 {  
+                    font-size: 300%;
+                }
+
+                .wrapperb h3 {  
+                    font-size: 225%;
+                }     
+
+                .wrapperb p {  
+                    font-size: 200%; 
+                }            
+
+            .footer {
+                padding-top: 3%;
+            }
+
+                .footer p {  
+                    font-size: 180%;
+                }
+
+        }
+
+        /* Laptop and Desktop */    
+        @media only screen and (min-width: 1024.5px) {
+            
+            .hright1 {
+                display: none;
+            }
+            
+        }
+
+</style>    
+     
+</head>
+    
+    <body>
+
+        <!-- Header -->
+        <div class = "header">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz-García</a></h1> 
+                </div>
+                <div class="hright1"> 
+                    <img src="files/photo2.jpg" alt="centered image" height="auto" width="100%">                     
+                </div>              
+                <div class="hright2"> 
+                    <div class="navbar">
+                        <a style="vertical-align: middle;" href="home.html">Home</a>     
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" class="active" href="references.html">References</a>         
+                    </div>                       
+                </div>
+            </div>  
+        </div>
+        
+        <!-- Main Body -->  
+        <div class = "wrapperb" style="padding-top: 0.7%;"> 
+            <h1 style="padding-top: 3%;">References</h1>
+        </div>   
+        <div class = "wrapperb" style="padding-top: 0.7%;"> 
+            <div class = "bleft" style="padding-top: 1%; vertical-align: top;">
+                <h2 style="padding-top: 3%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner</a></h2> 
+                <h3 style="padding-top: 1.5%; color: #3b5198;">Advisor</h3>
+            </div>  
+            <div class = "bmiddle" style="padding-top: 1%; vertical-align: top;">
+                <h2 style="padding-top: 3%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~pijoan/" target="_blank">Josep Pijoan-Mas</a></h2>                
+            </div>    
+            <div class = "bright" style="padding-top: 1%; vertical-align: top;">
+                <h2 style="padding-top: 3%;"><a style="text-decoration: none; color: #af7714;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia</a></h2>                 
+            </div> 
+        </div>    
+        <div class = "wrapperb">                 
+            <div class = "bleft">    
+                <p style="padding-top: 3%;">Professor of Economics</p>
+                <p style="padding-top: 3%;">CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
+                <p style="padding-top: 3%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:nezih.guner@cemfi.es">nezih.guner@cemfi.es</a></p>               
+            </div>
+            <div class = "bmiddle">
+                <p style="padding-top: 3%;">Associate Professor of Economics</p>
+                <p style="padding-top: 3%;">CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
+                <p style="padding-top: 3%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:pijoan@cemfi.es">pijoan@cemfi.es</a></p>                
+            </div>           
+            <div class = "bright">
+                <p style="padding-top: 3%;">Professor of Economics</p>
+                <p style="padding-top: 3%;">University of Toronto<br>150 St. George Street<br>M5S 3G7 Toronto, Ontario - Canada</p>
+                <p style="padding-top: 3%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:diego.restuccia@utoronto.ca">diego.restuccia@utoronto.ca</a></p>            
+            </div>           
+        </div>       
+        
+        <!-- Footer -->                 
+        <div class = "footer">    
+            <p>&copy; 2019 by Juan Carlos Ruiz-García</p>
+        </div>       
+        
+    </body>
+    
+</html>
