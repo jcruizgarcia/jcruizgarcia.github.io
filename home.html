@@ -1,819 +1,430 @@
 <!DOCTYPE html>
-<!-- Webpage of Juan Carlos Ruiz-García https://www.cemfi.es/~ruizgarcia/ -->
+<!-- Webpage of Juan Carlos Ruiz-García https://http://jcruizgarcia.com/ -->
 <html lang="en">
 <head>
-<title>Juan Carlos Ruiz-García &#8210 Home</title>    
+<title>JC Ruiz-García &#8210 Home</title>    
 <meta charset = "UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="JC Ruiz-García">
+<meta name="author" content="Juan Carlos Ruiz-García">
     
 <!-- <meta name="description" content="Personal website of Juan Carlos Ruiz-García, PhD candidate in Economics - CEMFI"> -->
     
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">    
-
+<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">  
+    
 <style>  
     
-    /* Style of the Body */
-    body{        
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.9vw;
+/* Style of the Body */
+body{       
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+    background: #fdfdfd;
+    margin: auto;
+    overflow-y: scroll;
+} 
+/* Style of the Header - Big Screen (more 900px) */
+.headerb {
+    padding-top: 1%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    width: 90%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+} 
+    /* Fonts of the Header */
+    .headerb h1 {  
+        padding-top: 1%;
+        padding-bottom: 1%;        
+        text-align: left;        
+        font-size: 400%;
+        line-height: 100%;
         font-weight: 100;
-        background: #fdfdfd;
-        margin: auto;
-        overflow-y: scroll;
-    } 
+        color: #3b5198;
+        margin: auto;        
+    }  
     
-    /* Style of the Header */
-    .header {
-        padding-bottom: 0%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 1%; 
-        width: 90%; 
-        height: auto;
-        background: #fdfdfd;
-        margin: auto;       
+/* Style of the Header - Small Screen (less 900px) */    
+.headers {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 3%; 
+    width: 95%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+}
+    /* Fonts of the Header */
+    .headers h1 {          
+        text-align: center;        
+        font-size: 500%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;        
+    }  
+    
+    .headers h2 {  
+        text-align: center;
+        font-size: 275%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
+    } 
+
+    .headers p {  
+        text-align: center;
+        font-size: 175%;
+        line-height: 130%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
     }
     
-        /* Two sections of the Header */
-        .wrapperh {
-            width: 100%;
-            height: auto;
-            display: table;
-            vertical-align: middle;        
-            margin: auto; 
-        }
-
-        .hleft {
-            width: 60%;
-            height: 20%;        
-            display: table-cell;
-            vertical-align: middle;
-            margin: auto; 
-        }  
-
-        .hright1 {
-            width: 40%;
-            height: 20%;        
-            display: table-cell;
-            vertical-align: top;
-            margin: auto; 
-        }
-
-        .hright2 {
-            width: 40%;
-            height: 20%;        
-            display: table-cell;
-            vertical-align: top;
-            margin: auto; 
-        }        
-
-        /* Navigation Bar of the Header */
-        .navbar {
-            float: right;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: auto;
-            background-color: white;
-        }
-
-        .navbar a {
-            font-size: 125%;
-            padding-top: 1%;
-            padding-bottom: 1%;
-            text-align: center;
-            text-decoration: none;
-            width: 20%; 
-            height: 100%; 
-            color: #666666; 
-            float: left;
-        }
-
-        .navbar a:hover {
-            background-color: #666666;
-            color: white;
-        }
-
-        .navbar a.active {
-            background-color: #3b5198;
-            color: white; 
-        }    
-    
-        /* Fonts of the Header */
-        .header h1 {  
-            padding-top: 1%;
-            padding-bottom: 1%;        
-            text-align: left;        
-            font-size: 275%;
-            line-height: 100%;
-            font-weight: 100;
-            color: #3b5198;
-            margin: auto;        
-        }  
-    
-    /* Body */
- 
-        /* Links */    
-        a {
+        /* Links of the Header */
+        .headers a {
             color: #666666;
         }
 
-        a:hover {
+        .headers a:hover {
             font-weight: bold;
             color: #3b5198;
-        } 
-
-        /* Line */    
-        hr { 
-            display: block;
-            width: 83%;
-            border-left-width: 0;
-            border-right-width: 0;
-            border-top-width: 0;
-            border-bottom-width: thin;
-            border-style: solid;
-            border-color: #3b5198;
-        } 
+        }     
     
-        /* Two sections of the Body */ 
-        .wrapperb {
-            padding-bottom: 0.0%;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 0%;
-            width: 85%;
+/* Two sections of the Header */
+.wrapperh {
+    width: 100%;
+    height: auto;
+    display: table;
+    vertical-align: middle;        
+    margin: auto; 
+}
+
+.hleft {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}  
+
+.hright1 {
+    padding-top: 1.5%; 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    width: 23%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}
+
+.hright2 {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}        
+
+/* Navigation Bar of the Header - Big Screen (more 900px) */
+.navbarb {
+    padding-top: 1%;
+    padding-bottom: 1%;   
+    width: 100%;
+    height: auto;          
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+
+    .navbarb a {
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 1%;            
+        width: auto; 
+        height: 100%; 
+        color: #666666; 
+        float: right;
+        font-size: 120%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbarb a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbarb a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    } 
+    
+/* Navigation Bar of the Header - Small Screen (less 900px) */  
+.navbars {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    float: none;
+    display: block;
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+        
+    .navbars a {
+        padding-top: 3.3%;
+        padding-bottom: 3.3%;
+        width: 100%; 
+        height: 20%;  
+        color: #666666;
+        float: left; 
+        vertical-align: middle;            
+        margin: auto;           
+        font-size: 250%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbars a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbars a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    }        
+
+/* Two sections of the Body - Big Screen (more 900px) */ 
+.wrapperb {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-bottom: 0.5%; 
+    width: 75%; 
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+    
+/* Left of the main Body */
+.bleft {
+    padding-top: 1%; 
+    padding-bottom: 1%;    
+    width: 30%;
+    height: auto;        
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    margin: auto; 
+}  
+       /* Section of the Photo */ 
+        .bleft photo {
             height: auto;
-            display: table;
-            vertical-align:middle;
-            margin: auto;
-        }   
-    
-            /* Left of the main Body */
-            .bleft {
-                padding-top: 1%;        
-                width: 25%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: top;
-                text-align: center;
-                margin: auto; 
-            }  
-
-                /* Fonts of the Left Body */
-                .bleft h1 {  
-                    text-align: center;
-                    font-size: 150%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #3b5198;
-                    margin: auto; 
-                }   
-
-                .bleft h2 {  
-                    text-align: left;
-                    font-size: 125%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto; 
-                } 
-
-                .bleft p {  
-                    text-align: center;
-                    font-size: 100%;
-                    line-height: 130%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto; 
-                }
-    
-            /* Right of the main Body */
-            .bright {      
-                padding-left: 3%;
-                width: 75%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: top;
-                text-align: left;
-                margin: auto; 
-            }
-
-                /* Fonts of the Right Body */
-                .bright h1 {  
-                    text-align: left;
-                    font-size: 150%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #3b5198;
-                    margin: auto;
-                }
-
-                .bright h2 {  
-                    text-align: left;
-                    font-size: 125%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #af7714;
-                    margin: auto;
-                }
-
-                .bright p {  
-                    text-align: justify;
-                    font-size: 100%;
-                    line-height: 130%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto;
-                } 
-            
-                /* Links of the Right Body */
-                .bright p a {
-                    font-weight: bold;
-                    color: #3b5198;
-                }
-
-                .bright p a:hover {
-                    font-weight: bold;
-                    color: #666666;
-                }
-    
-                /* Line of the Right Body */
-
-                .bright hr { 
-                display: block;
-                    width: 83%;
-                    border-left-width: 0;
-                    border-right-width: 0;
-                    border-top-width: 0;
-                    border-bottom-width: thin;
-                    border-style: solid;
-                    border-color: #3b5198;
-                } 
-
-        /* Two sections of the Body */ 
-        .wrapperb2 {
-            padding-bottom: 0.3%;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 0.5%;
-            width: 85%;
-            height: auto;
-            display: table;
-            vertical-align:middle;
-            margin: auto;
-        }   
-    
-            /* Left of the main Body */
-            .b2left {       
-                width: 25%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: top;
-                text-align: center;
-                margin: auto; 
-            }  
-
-                /* Fonts of the Left Body */
-                .b2left h1 {  
-                    text-align: center;
-                    font-size: 150%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #3b5198;
-                    margin: auto; 
-                }   
-
-                .b2left h2 {  
-                    text-align: left;
-                    font-size: 125%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto; 
-                } 
-
-                .b2left p {  
-                    text-align: center;
-                    font-size: 100%;
-                    line-height: 130%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto; 
-                }
-    
-                /* Line of the Right Body */
-                .b2left hr { 
-                    display: block;
-                    width: 83%;
-                    border-left-width: 0;
-                    border-right-width: 0;
-                    border-top-width: 0;
-                    border-bottom-width: thin;
-                    border-style: solid;
-                    border-color: #3b5198;
-                } 
-    
-            /* Right of the main Body */
-            .b2right {      
-                width: 75%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: top;
-                text-align: left;
-                margin: auto; 
-            }
-
-                /* Fonts of the Right Body */
-                .b2right h1 {  
-                    text-align: center;
-                    font-size: 150%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #3b5198;
-                    margin: auto;
-                }
-
-                .b2right h2 {  
-                    text-align: left;
-                    font-size: 125%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #af7714;
-                    margin: auto;
-                }
-
-                .b2right p {  
-                    text-align: justify;
-                    font-size: 100%;
-                    line-height: 130%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto;
-                } 
-    
-                /* Line of the Right Body */
-                .b2right hr {
-                    margin-left: 5%; 
-                    margin-right: 5%; 
-                    padding-right: 10%; 
-                }    
-
-        /* One sections of the Body - Only Portable Devices */ 
-        .wrapperbp {
-            padding-bottom: 0.3%;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 0.5%;
-            width: 80%;
-            height: auto;
-            display: table;
+            display: table-cell;
             vertical-align: middle;
             margin: auto;
-        }
-    
-            /* Fonts of One Section Body */
-            .wrapperbp h1 {  
-                text-align: center;
-                font-size: 150%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #3b5198;
-                margin: auto; 
-            }   
-
-            .wrapperbp h2 {  
-                text-align: left;
-                font-size: 125%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #666666;
-                margin: auto; 
-            } 
-
-            .wrapperbp p {  
-                text-align: center;
-                font-size: 80%;
-                line-height: 130%;
-                font-weight: 100;
-                color: #666666;
-                margin: auto; 
-            }    
-
-        /* Section of the Photo */ 
-        .wrapperp {
-            padding-top: 7%;
-            width: 67.7%;
-            height: auto;
-            display: table;
-            vertical-align: middle;
-            margin: auto;
-        }  
-
-    /* Three sections of the Body */ 
-        .wrapperb3 {
-            width: 100%;
-            height: auto;
-            display: table;
-            vertical-align: middle;
-            margin: auto;
+        }      
+        /* Fonts of the Left Body */
+        .bleft h1 {  
+            text-align: center;
+            font-size: 200%;
+            line-height: 100%;
+            font-weight: 100;
+            color: #3b5198;
+            margin: auto; 
         }   
-    
-            .b3left {    
-                width: 33.3%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: middle;
-                text-align: center;
-                margin: auto; 
-            }   
 
-            .b3middle {
-                width: 33.3%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: middle;
-                margin: auto; 
-            }
-
-            .b3right {
-                width: 33.3%;
-                height: auto;        
-                display: table-cell;
-                vertical-align: middle;
-                margin: auto; 
-            }   
-    
-            /* Fonts of the Three Sections Body */
-
-            .wrapperb3 h1 {  
-                text-align: center;
-                font-size: 150%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #3b5198;
-                margin: auto; 
-            }
-    
-            .wrapperb3 h2 {  
-                text-align: center;
-                font-size: 125%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #af7714;
-                margin: auto; 
-            } 
-
-            .wrapperb3 p {  
-                text-align: center;
-                font-size: 100%;
-                line-height: 125%;
-                font-weight: 100;
-                color: #666666;
-                margin: auto; 
-            }    
-
-        /* Two sections of the Placement Coordinators */  
-        .wrapper {
-            width: 100%;
-            height: auto;
-            display: table;
-            vertical-align: middle;
-            margin: auto;
-        }   
-    
-            /* Left of the Placement Coordinators */
-            .left {
-                width: 50%; 
-                height: auto;      
-                display: table-cell;
-                vertical-align: middle;
-                text-align: center;
-                margin: auto;
-            }  
-
-                /* Fonts of the Left Placement Coordinators */
-                .left h2 {  
-                    text-align: center;
-                    font-size: 125%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #af7714;
-                    margin: auto;
-                }      
-
-                .left p {
-                    text-align: center;
-                    font-size: 100%;
-                    line-height: 130%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto; 
-                }  
-    
-            /* Right of the Placement Coordinators */
-            .right {
-                width: 50%;   
-                height: auto;    
-                display: table-cell;
-                vertical-align: middle;
-                text-align: center;
-                margin: auto;
-            } 
-    
-                /* Fonts of the Right Placement Coordinators */
-                .right h2 {  
-                    text-align: center;
-                    font-size: 125%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #af7714;
-                    margin: auto;
-                }   
-
-                .right p {  
-                    text-align: center;
-                    font-size: 100%;
-                    line-height: 130%;
-                    font-weight: 100;
-                    color: #666666;
-                    margin: auto; 
-                }      
-
-        /* The Footer */
-        .footer {
-            padding-bottom: 0.5%;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 1%;        
-            width: 100%;
-            height: auto;
-            background-color: #fdfdfd;
+        .bleft h2 {  
+            text-align: center;
+            font-size: 125%;
+            line-height: 100%;
+            font-weight: 100;
+            color: #666666;
             margin: auto; 
         } 
+
+        .bleft p {  
+            text-align: center;
+            font-size: 100%;
+            line-height: 130%;
+            font-weight: 100;
+            color: #666666;
+            margin: auto; 
+        }
     
-            /* Fonts of the Footer */
-            .footer p {  
-                text-align: center;
-                font-size: 90%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #666666; 
-                margin: auto; 
+            /* Links of the Left Body */
+            .bleft a {
+                color: #666666;
             }
 
-    /* Media Information for Different Devices */
+            .bleft a:hover {
+                font-weight: bold;
+                color: #3b5198;
+            }   
+
+/* Right of the main Body */
+.bright {      
+    padding-left: 5%; 
+    width: 70%;
+    height: auto;        
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto; 
+}
+    /* Fonts of the Right Body */
+    .bright h1 {  
+        text-align: left;
+        font-size: 250%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+
+    .bright p {  
+        text-align: justify;
+        font-size: 125%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .bright p a {
+            font-weight: bold;
+            color: #3b5198;
+        }
+
+        .bright p a:hover {
+            font-weight: bold;
+            color: #666666;
+        }  
     
-        /* Phone */
-        @media only screen and (max-width: 450px) { 
+/* One section of the Body - Small Screen (less 900px) */ 
+.wrappers {
+    padding-top: 3%; 
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 5%;
+    width: 85%; 
+    height: auto;
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+    
+    /* Fonts of the One Section Body */
+    .wrappers h1 {  
+        text-align: center;
+        font-size: 400%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+
+    .wrappers p {  
+        text-align: justify;
+        font-size: 225%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
             
-            .header {
-                padding-left: 2.5%;
-                padding-right: 2.5%;
-                width: 95%; 
-                height: auto;
-                background: #fdfdfd;
-                margin: auto;       
-            }  
+        /* Links of the Right Body */
+        .wrappers p a {
+            font-weight: bold;
+            color: #3b5198;
+        }
 
-                .hright1 {
-                    width: 20%;
-                    padding-left: 1.5%;
-                    padding-right: 1.5%;
-                    margin: auto;
-                }   
-
-                .hright2 {
-                    width: 20%;
-                    height: auto;
-                    vertical-align: middle;
-                } 
+        .wrappers p a:hover {
+            font-weight: bold;
+            color: #666666;
+        }         
+    
+/* Media Information for Different Devices */
+    
+    /* Laptop and Desktop */    
+    @media only screen and (min-width: 900.5px) {
+        
+        .headers {
+            display: none;
+        }            
             
-                .navbar {
-                    float: none;
-                    display: block;
-                }
-
-                .navbar a {
-                    font-size: 300%;
-                    width: 100%;
-                    height: 20%;
-                    vertical-align: middle;            
-                    margin: auto;
-                }             
-
-                .header h1 { 
-                    font-size: 550%;
-                }
-
-                .header h2 { 
-                    font-size: 350%;
-                }           
-
-            .wrapperb {
-                width: 95%;
-            }          
-
-                .bleft {
-                    display: none;
-                }
-
-                .bright {  
-                    padding-left: 3%;
-                    padding-right: 3%;
-                    width: 100%;
-                }  
-
-                    .bright h1 {  
-                        font-size: 4200%;
-                    }  
-
-                    .bright h2 {
-                        font-size: 360%;
-                    } 
-
-                    .bright p {  
-                        font-size: 240%;
-                    }
-
-                    .bright hr {
-                        margin-left: 5%; 
-                        margin-right: 5%; 
-                        padding-right: 10%; 
-                        padding-top: 2%;
-                    }        
-
-            .wrapperbp {
-                width: 95%;
-            } 
-
-                .wrapperbp h1 {  
-                    font-size: 420%;
-                }   
-
-                .wrapperbp h2 {  
-                    text-align: center;
-                    font-size: 360%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #af7714;
-                    margin: auto; 
-                } 
-
-                .wrapperbp p {  
-                    font-size: 240%;
-                }            
-
-            .wrapper {
-                padding-top: 1%;
-            }
+        .navbars {
+            display: none;
+        }
             
-            .wrapperb2 {
-                display: none;
-            }            
+        .hright1 {
+            display: none;
+        }
+            
+        .wrappers {
+            display: none;
+        } 
+            
+    }   
 
-            .footer {
-                padding-top: 3%;
-            }
+    /* Ipad and Tablet */
+    @media only screen and (max-width: 900.5px) {         
+            
+        .headerb {
+            display: none;
+        }            
+            
+        .navbarb {
+            display: none;
+        }
+            
+        .wrapperb {
+            display: none;
+        }    
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
+        }
 
-                .footer p {  
-                    font-size: 180%;
-                }                 
-
+    }    
+    
+    /* Phone */
+    @media only screen and (max-width: 450px) { 
+         
+        .headerb{
+            display: none;
+        }            
+            
+        .navbarb{
+            display: none;
+        }
+                    
+        .wrapperb {
+            display: none;
+        } 
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
         }        
-
-        /* Ipad and Tablet */
-        @media only screen and (max-width: 1024.5px) { 
-
-            .header {
-                padding-left: 2.5%;
-                padding-right: 2.5%;
-                width: 95%; 
-                height: auto;
-                background: #fdfdfd;
-                margin: auto;       
-            }  
-
-                .hright1 {
-                    width: 20%;
-                    padding-left: 1.5%;
-                    padding-right: 1.5%;
-                    margin: auto;
-                }   
-
-                .hright2 {
-                    width: 20%;
-                    height: auto;
-                    vertical-align: middle;
-                } 
-            
-                .navbar {
-                    float: none;
-                    display: block;
-                }
-
-                .navbar a {
-                    font-size: 250%;
-                    width: 100%;
-                    height: 20%;
-                    vertical-align: middle;            
-                    margin: auto;
-                }              
-
-                .header h1 { 
-                    font-size: 550%;
-                }
-
-                .header h2 { 
-                    font-size: 350%;
-                }
-
-            .wrapperb {
-                width: 95%;
-            }          
-
-                .bleft {
-                    display: none;
-                }
-
-                .bright {  
-                    padding-left: 3%;
-                    padding-right: 3%;
-                    width: 100%;
-                }  
-
-                    .bright h1 {  
-                        font-size: 350%;
-                    }  
-
-                    .bright h2 {
-                        font-size: 300%;
-                    } 
-
-                    .bright p {  
-                        font-size: 200%;
-                    }
-
-                    .bright hr {
-                        margin-left: 5%; 
-                        margin-right: 5%; 
-                        padding-right: 10%; 
-                        padding-top: 2%;
-                    }        
-
-            .wrapperbp {
-                width: 95%;
-            } 
-
-                .wrapperbp h1 {  
-                    font-size: 350%;
-                }   
-
-                .wrapperbp h2 {  
-                    text-align: center;
-                    font-size: 300%;
-                    line-height: 100%;
-                    font-weight: 100;
-                    color: #af7714;
-                    margin: auto; 
-                } 
-
-                .wrapperbp p {  
-                    font-size: 200%;
-                }  
-              
-            .wrapper {
-                padding-top: 1%;
-            }
-
-            .wrapperb2 {
-                display: none;
-            }
-
-            .footer {
-                padding-top: 3%;
-            }
-
-                .footer p {  
-                    font-size: 180%;
-                }
-
-        }
-
-        /* Laptop and Desktop */    
-        @media only screen and (min-width: 1024.5px) {
-            
-            .hright1 {
-                display: none;
-            }
-
-            .wrapperbp {
-                display: none;
-            }
-            
-        }
+               
+    }        
 
 </style>    
      
@@ -821,184 +432,75 @@
     
     <body>
 
-        <!-- Header -->
-        <div class = "header">
+        <!-- Header Large Screen (more 900px) -->
+        <div class = "headerb">
             <div class="wrapperh">
                 <div class="hleft">
                     <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz-García</a></h1> 
+                </div>            
+                <div class="hright2"> 
+                    <div class="navbarb">
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                        <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" class="active" href="home.html">Home</a>
+                    </div>                    
+                </div>
+            </div> 
+        </div>
+        <!-- Header Small Screen (less 900px) -->
+        <div class = "headers">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz-García</a></h1> 
+                    <h2 style="padding-top: 5%;"> <a style="padding-top: 5%; text-decoration: none;" href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a></h2>
+                    <p style="padding-top: 2%;">Sidgwick Avenue - Austin Robinson Building<br>CB3 9DD Cambridge - UK</p>
+                    <p style="padding-top: 3%; font-size: 225%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:jcrg3@cam.ac.uk">jcrg3@cam.ac.uk</a></p>
                 </div>
                 <div class="hright1"> 
                     <img src="files/photo2.jpg" alt="centered image" height="auto" width="100%">                     
                 </div>              
                 <div class="hright2"> 
-                    <div class="navbar">
+                    <div class="navbars">
                         <a style="vertical-align: middle;" class="active" href="home.html">Home</a>
                         <a style="vertical-align: middle;" href="cv.html">CV</a>
                         <a style="vertical-align: middle;" href="research.html">Research</a>
                         <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
                         <a style="vertical-align: middle;" href="references.html">References</a>
-                    </div>                       
+                    </div>                    
                 </div>
-            </div>  
-        </div>
-        
-        <!-- Main Body -->    
+            </div> 
+        </div>        
+
+        <!-- Main Body - Large Screen (more 900px) -->    
         <div class = "wrapperb"> 
             <div class="bleft">
-                <div class="wrapperp">
-                    <img src="files/photo3.jpg" alt="centered image" height="auto" width="100%">
+                <div class="photo">
+                    <img src="files/photo3.jpg" alt="centered image" height="auto" width="90%">
                 </div>
                 <h1 style="padding-top: 5%;">Contact Information</h1>
-                <p style="padding-top: 3%;">CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                <p style="padding-top: 1.5%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:ruiz-garcia@cemfi.edu.es">ruiz-garcia@cemfi.edu.es</a></p>
-                <p style="padding-top: 1.5%; font-size: 100%; line-height: 150%; font-weight: 300; margin: 0; color: #666666;">+34 618 648 023</p>   
+                <h2 style="padding-top: 5%;"> <a style="padding-top: 5%; text-decoration: none;" href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a></h2>
+                <p style="padding-top: 3%;">Sidgwick Avenue - Austin Robinson Building<br>CB3 9DD Cambridge - UK</p>
+                <p style="padding-top: 3.5%; font-size: 115%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:jcrg3@cam.ac.uk">jcrg3@cam.ac.uk</a></p>
             </div>
             <div class="bright">
-                <h1 style=" padding-top: 1.5%;">Welcome to my Website!</h1>     
-                <p style="padding-top: 1.5%;">I am a PhD candidate in Economics at <a style="text-decoration: none; font-weight: bold;" href="https://www.cemfi.es/" target="_blank">CEMFI</a>. My research interests are in the fields of Macroeconomics and Firm Dynamics. You can know more about me in my <a style="text-decoration: none; font-weight: bold;" href="files/Ruiz-Garcia_CV.pdf" target="_blank">CV</a></p>
-                <p style="padding-top: 1.5%;">I am currently on the job market and will be available for interviews at <a style="text-decoration: none; font-weight: bold;" href="https://www.eeassoc.org/index.php?page=288" target="_blank">the 2019 EEA Job Market Meeting in Rotterdam</a> and <a style="text-decoration: none; font-weight: bold;" href="https://www.aeaweb.org/conference/" target="_blank">the 2020 ASSA Job Market Meeting in San Diego</a></p>
-                <hr style="padding-top: 0.5%;">
-                <h1 style="padding-top: 1%;"><a style="text-decoration: none; color: #3b5198; font-weight: 100;" href="files/Ruiz-Garcia_JMP.pdf" target="_blank">Job Market Paper</a></h1> 
-                <h2 style="padding-top: 2.5%; text-align:center; line-height:125%;"><a style="text-decoration: none; color: #af7714;" href="files/Ruiz-Garcia_JMP.pdf" target="_blank">Financial Frictions, Firm Dynamics and the Aggregate Economy:<br>Insights from Richer Productivity Processes</a></h2>        
-                <p style="padding-left: 3%; padding-right: 3%; padding-top: 2%;">How do financial frictions affect firm dynamics, allocation of resources across firms, and aggregate productivity and output? Is the nature of productivity shocks that firms face important for the effects of financial frictions? In order to answer these questions, I first use a comprehensive dataset of Spanish firms from 1999 to 2014 to estimate nonparametrically the firm productivity dynamics. I find that the productivity process is non-linear, as persistence and shock variability depend on past productivity, and productivity shocks are non-Gaussian. These dynamics differ from the ones implied by the standard AR(1) process, commonly used in the firm dynamics literature. I then build a model of firm dynamics with financial frictions in which productivity shocks are non-linear and non-Gaussian. The model is consistent with a host of evidence on firm dynamics, financial frictions, and firms' financial behavior. In the model economy, financial frictions affect the firm life cycle. Without financial frictions, the size of an entrant firm will be three times larger. Furthermore, profit accumulation, which allows firms to overcome financial frictions, is slow, and it only speeds up when firms are mature. As a consequence, the average exiting firm is smaller than it would be without financial frictions. The aggregate consequences of financial frictions are large. They result in misallocation of capital and reduce aggregate productivity by 16%. This figure is only 8% if productivity dynamics evolve according to a standard AR(1) process.</p>
-             </div> 
+                <h1>Welcome to my Website!</h1>     
+                <p style="padding-top: 5%;">I am a <b>Macroeconomist</b> with both theoretical and empirical interests. I have received my <b>Ph.D. in Economics and Government</b> from <a style="text-decoration: none;" href="http://www.cemfi.es/" target="_blank">Center for Monetary and Financial Studies (CEMFI)</a>.</p>
+                <p style="padding-top: 3%;">My main research focuses on <b>Firm Dynamics</b> with a special interest in understanding how financial frictions affect firms in the economy, and as a result, aggregate productivity and output. I also work in <b>Development Economics</b>, particularly understanding the determinants of Poverty and Inequality both across and within countries.</p>                      
+                <p style="padding-top: 3%;">For the 2020-2021 academic year, I am a Postdoctoral Research Associate of <a style="text-decoration: none;" href="http://www.inet.econ.cam.ac.uk/transmission-research-theme" target="_blank">the Transmission Mechanisms and Economic Policy Research Theme</a> in <a style="text-decoration: none;" href="http://www.inet.econ.cam.ac.uk/" target="_blank">the Cambridge-INET Institute</a> at <a style="text-decoration: none;" href="http://www.econ.cam.ac.uk/" target="_blank">the Faculty of Economics</a> of <a style="text-decoration: none;" href="http://www.cam.ac.uk/" target="_blank">the University of Cambridge</a>.</p>                     
+                <p style="padding-top: 3%;">Beginning in the Fall of 2021, I will join <a style="text-decoration: none;" href="http://www.dises.unina.it/" target="_blank">the Department of Economics and Statistics</a> at the <a style="padding-top: 5%; text-decoration: none;" href="http://www.international.unina.it/" target="_blank">the University of Naples Federico II</a> and <a style="text-decoration: none;" href="http://www.csef.it/" target="_blank">the Center for Studies in Economics and Finance (CSEF)</a>.</p> 
+            </div> 
         </div>
-        <div class = "wrapperb2">               
-            <div class="b2left"> 
-                <hr>
-                <h1 style="padding-top: 1.5%;">Placement Directors</h1>               
-                <div class="wrapper">
-                    <div class="left">
-                        <h2 style="padding-top: 7%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner</a></h2>                     
-                    </div>
-                    <div class="right">
-                        <h2 style="padding-top: 7%;"><a style="text-decoration: none; color: #af7714;" href="http://www.mwpweb.eu/YarineFawaz/" target="_blank">Yarine Fawaz</a></h2>  
-                    </div>   
-                </div>                
-            </div>  
-            <div class="b2right">  
-                <hr>
-                <h1 style="padding-top: 0.5%;">References</h1> 
-                <div class = "wrapperb3"> 
-                    <div class = "b3left">
-                        <h2 style="padding-top: 3.5%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner</a></h2>
-                    </div>  
-                    <div class = "b3middle">
-                        <h2 style="padding-top: 3.5%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~pijoan/" target="_blank">Josep Pijoan-Mas</a></h2> 
-                    </div> 
-                      <div class = "b3right">
-                        <h2 style="padding-top: 3.5%;"><a style="text-decoration: none; color: #af7714;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia</a></h2>  
-                     </div>                   
-                </div>
-                <div class = "wrapperb3"> 
-                    <div class = "b3left">
-                        <p style="padding-top: 1.0%; color: #3b5198;">Advisor</p>
-                    </div>        
-                    <div class = "b3middle">
-                        <p style="color: #3b5198;"> </p>
-                    </div>  
-                    <div class = "b3right">
-                        <p style="color: #3b5198;"> </p>
-                    </div>                   
-                </div>                
-            </div> 
-        </div>   
-        <div class = "wrapperb2">               
-            <div class="b2left">            
-                <div class="wrapper">
-                    <div class="left">                  
-                        <p>CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                        <p style="padding-top: 3%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:nezih.guner@cemfi.es">nezih.guner@cemfi.es</a></p>
-                    </div>
-                    <div class="right">
-                        <p>CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                        <p style="padding-top: 3%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:fawaz@cemfi.es">fawaz@cemfi.es</a></p>      
-                    </div>   
-                </div>                
-            </div>  
-            <div class="b2right">  
-                <div class = "wrapperb3"> 
-                    <div class = "b3left">
-                        <p>CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                        <p style="padding-top: 1%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:nezih.guner@cemfi.es">nezih.guner@cemfi.es</a></p> 
-                    </div>  
-                    <div class = "b3middle">
-                        <p>CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                        <p style="padding-top: 1%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:pijoan@cemfi.es">pijoan@cemfi.es</a></p>    
-                    </div> 
-                      <div class = "b3right">
-                        <p>University of Toronto<br>150 St. George Street<br>M5S 3G7 Toronto, Ontario - Canada</p>
-                        <p style="padding-top: 1%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:diego.restuccia@utoronto.ca">diego.restuccia@utoronto.ca</a></p>  
-                     </div>                   
-                </div>
-            </div> 
-        </div>         
-
-        <!-- Main Body - Portable Devices -->       
-        <div class="wrapperbp">
-            <hr style="margin-left: 8%; margin-right: 2%; padding-right: 4%; padding-top: 1%;">
-            <h1 style="padding-top: 1%;">Contact Information</h1>
-            <p style="padding-top: 1%;">CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-            <p style="padding-top: 0.75%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:ruiz-garcia@cemfi.edu.es">ruiz-garcia@cemfi.edu.es</a></p>
-            <p style="padding-top: 0.75%; color: #666666;">+34 618 648 023</p>
-            <hr style="margin-left: 8%; margin-right: 2%; padding-right: 4%; padding-top: 1%;">
-            <h1 style="padding-top: 1%;">References</h1>
-            <div class = "wrapperb3"> 
-                <div class="b3left">
-                    <h2 style="padding-top: 3.0%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner</a></h2>  
-                </div>
-                <div class="b3middle">
-                    <h2 style="padding-top: 3.0%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~pijoan/" target="_blank">Josep Pijoan-Mas</a></h2> 
-                </div>  
-                 <div class="b3right">
-                    <h2 style="padding-top: 3.0%;"><a style="text-decoration: none; color: #af7714;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia</a></h2> 
-                </div>                
-            </div>  
-             <div class = "wrapperb3"> 
-                <div class="b3left">
-                    <p style="padding-top: 0.5%; color: #3b5198;">Advisor</p> 
-                </div>
-                <div class="b3middle">
-                    <p style="color: #3b5198;"> </p>
-                </div>  
-                 <div class="b3right">
-                    <p style="color: #3b5198;"> </p>
-                </div>                
-            </div>                      
-            <div class = "wrapperb3" style="padding-top: 1.0%;"> 
-                <div class="b3left">                 
-                    <p>CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                    <p style="padding-top: 3.0%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:nezih.guner@cemfi.es">nezih.guner@cemfi.es</a></p> 
-                </div>
-                <div class="b3middle">
-                    <p>CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                    <p style="padding-top: 3.0%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:pijoan@cemfi.es">pijoan@cemfi.es</a></p>  
-                </div>  
-                 <div class="b3right">
-                    <p>University of Toronto<br>150 St. George Street<br>M5S 3G7 Toronto, Ontario - Canada</p>
-                    <p style="padding-top: 3.0%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:diego.restuccia@utoronto.ca">diego.restuccia@utoronto.ca</a></p> 
-                </div>                
-            </div>             
-            <hr style="margin-left: 8%; margin-right: 2%; padding-right: 4%; padding-top: 1%;">
-            <h1 style="padding-top: 1%;">Placement Directors</h1>
-            <div class = "wrapper"> 
-                <div class="left">
-                    <h2 style="padding-top: 2%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner</a></h2>                     
-                    <p style="padding-top: 2%;">CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                    <p style="padding-top: 2%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:nezih.guner@cemfi.es">nezih.guner@cemfi.es</a></p>
-                </div>
-                <div class="right">
-                    <h2 style="padding-top: 2%;"><a style="text-decoration: none; color: #af7714;" href="http://www.mwpweb.eu/YarineFawaz/" target="_blank">Yarine Fawaz</a></h2> 
-                    <p style="padding-top: 2%;">CEMFI<br>Casado del Alisal 5<br>28014 Madrid - Spain</p>
-                    <p style="padding-top: 2%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:fawaz@cemfi.es">fawaz@cemfi.es</a></p>
-                </div>  
-            </div> 
-        </div> 
         
-        <!-- Footer -->                 
-        <div class = "footer">    
-            <p>&copy; 2019 by Juan Carlos Ruiz-García</p>
-        </div>       
+        <!-- Main Body - Small Screen (less 900px) --> 
+        <div class = "wrappers">
+            <h1>Welcome to my Website!</h1>     
+            <p style="padding-top: 5%;">I am a <b>Macroeconomist</b> with both theoretical and empirical interests. I have received my <b>Ph.D. in Economics and Government</b> from <a style="text-decoration: none;" href="http://www.cemfi.es/" target="_blank">Center for Monetary and Financial Studies (CEMFI)</a>.</p>
+            <p style="padding-top: 3%;">My main research focuses on <b>Firm Dynamics</b> with a special interest in understanding how financial frictions affect firms in the economy, and as a result, aggregate productivity and output. I also work in <b>Development Economics</b>, particularly understanding the determinants of Poverty and Inequality both across and within countries.</p>                      
+            <p style="padding-top: 3%;">For the 2020-2021 academic year, I am a Postdoctoral Research Associate of <a style="text-decoration: none;" href="http://www.inet.econ.cam.ac.uk/transmission-research-theme" target="_blank">the Transmission Mechanisms and Economic Policy Research Theme</a> in <a style="text-decoration: none;" href="http://www.inet.econ.cam.ac.uk/" target="_blank">the Cambridge-INET Institute</a> at <a style="text-decoration: none;" href="http://www.econ.cam.ac.uk/" target="_blank">the Faculty of Economics</a> of <a style="text-decoration: none;" href="http://www.cam.ac.uk/" target="_blank">the University of Cambridge</a>.</p>                     
+            <p style="padding-top: 3%;">Beginning in the Fall of 2021, I will join <a style="text-decoration: none;" href="http://www.dises.unina.it/" target="_blank">the Department of Economics and Statistics</a> at the <a style="padding-top: 5%; text-decoration: none;" href="http://www.international.unina.it/" target="_blank">the University of Naples Federico II</a> and <a style="text-decoration: none;" href="http://www.csef.it/" target="_blank">the Center for Studies in Economics and Finance (CSEF)</a>.</p>     
+        </div>   
         
     </body>
     

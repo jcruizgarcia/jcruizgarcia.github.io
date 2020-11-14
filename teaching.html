@@ -1,387 +1,401 @@
 <!DOCTYPE html>
-<!-- Webpage of Juan Carlos Ruiz-García https://www.cemfi.es/~ruizgarcia/ -->
+<!-- Webpage of Juan Carlos Ruiz-García https://http://jcruizgarcia.com/ -->
 <html lang="en">
 <head>
-<title>Juan Carlos Ruiz-García &#8210 Research</title>    
+<title>JC Ruiz-García &#8210 Teaching</title>    
 <meta charset = "UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="JC Ruiz-García">
+<meta name="author" content="Juan Carlos Ruiz-García">
     
 <!-- <meta name="description" content="Personal website of Juan Carlos Ruiz-García, PhD candidate in Economics - CEMFI"> -->
     
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">    
-
+<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">  
+    
 <style>  
     
-    /* Style of the Body */
-    body{        
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0.9vw;
+/* Style of the Body */
+body{       
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+    background: #fdfdfd;
+    margin: auto;
+    overflow-y: scroll;
+} 
+/* Style of the Header - Big Screen (more 900px) */
+.headerb {
+    padding-top: 1%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    width: 90%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+} 
+    /* Fonts of the Header */
+    .headerb h1 {  
+        padding-top: 1%;
+        padding-bottom: 1%;        
+        text-align: left;        
+        font-size: 400%;
+        line-height: 100%;
         font-weight: 100;
-        background: #fdfdfd;
-        margin: auto;
-        overflow-y: scroll;
-    } 
+        color: #3b5198;
+        margin: auto;        
+    }  
     
-    /* Style of the Header */
-    .header {
-        padding-bottom: 0%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 1%; 
-        width: 90%; 
-        height: auto;
-        background: #fdfdfd;
-        margin: auto;       
+/* Style of the Header - Small Screen (less 900px) */    
+.headers {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 3%; 
+    width: 95%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+}
+    /* Fonts of the Header */
+    .headers h1 {          
+        text-align: center;        
+        font-size: 500%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;        
+    }  
+    
+    .headers h2 {  
+        text-align: center;
+        font-size: 275%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
+    } 
+
+    .headers p {  
+        text-align: center;
+        font-size: 175%;
+        line-height: 130%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
     }
     
-        /* Two sections of the Header */
-        .wrapperh {
-            width: 100%;
-            height: auto;
-            display: table;
-            vertical-align: middle;        
-            margin: auto; 
-        }
-
-        .hleft {
-            width: 60%;
-            height: 20%;        
-            display: table-cell;
-            vertical-align: middle;
-            margin: auto; 
-        }  
-
-        .hright1 {
-            width: 40%;
-            height: 20%;        
-            display: table-cell;
-            vertical-align: top;
-            margin: auto; 
-        }
-
-        .hright2 {
-            width: 40%;
-            height: 20%;        
-            display: table-cell;
-            vertical-align: top;
-            margin: auto; 
-        }        
-
-        /* Navigation Bar of the Header */
-        .navbar {
-            float: right;
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: auto;
-            background-color: white;
-        }
-
-        .navbar a {
-            font-size: 125%;
-            padding-top: 1%;
-            padding-bottom: 1%;
-            text-align: center;
-            text-decoration: none;
-            width: 20%; 
-            height: 100%; 
-            color: #666666; 
-            float: left;
-        }
-
-        .navbar a:hover {
-            background-color: #666666;
-            color: white;
-        }
-
-        .navbar a.active {
-            background-color: #3b5198;
-            color: white; 
-        }    
-    
-        /* Fonts of the Header */
-        .header h1 {  
-            padding-top: 1%;
-            padding-bottom: 1%;        
-            text-align: left;        
-            font-size: 275%;
-            line-height: 100%;
-            font-weight: 100;
-            color: #3b5198;
-            margin: auto;        
-        }  
-    
-    /* Body */
- 
-        /* Links */    
-        a {
+        /* Links of the Header */
+        .headers a {
             color: #666666;
         }
 
-        a:hover {
+        .headers a:hover {
             font-weight: bold;
             color: #3b5198;
-        } 
+        }     
+    
+/* Two sections of the Header */
+.wrapperh {
+    width: 100%;
+    height: auto;
+    display: table;
+    vertical-align: middle;        
+    margin: auto; 
+}
 
-        /* Line */    
-        hr { 
-            display: block;
-            width: 80%;
-            border-left-width: 0;
-            border-right-width: 0;
-            border-top-width: 0;
-            border-bottom-width: thin;
-            border-style: solid;
-            border-color: #3b5198;
-        } 
+.hleft {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}  
 
-        /* One sections of the Body */ 
+.hright1 {
+    padding-top: 1.5%; 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    width: 23%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}
+
+.hright2 {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}        
+
+/* Navigation Bar of the Header - Big Screen (more 900px) */
+.navbarb {
+    padding-top: 1%;
+    padding-bottom: 1%;   
+    width: 100%;
+    height: auto;          
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+
+    .navbarb a {
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 1%;            
+        width: auto; 
+        height: 100%; 
+        color: #666666; 
+        float: right;
+        font-size: 120%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbarb a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbarb a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    } 
+    
+/* Navigation Bar of the Header - Small Screen (less 900px) */  
+.navbars {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    float: none;
+    display: block;
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+        
+    .navbars a {
+        padding-top: 3.3%;
+        padding-bottom: 3.3%;
+        width: 100%; 
+        height: 20%;  
+        color: #666666;
+        float: left; 
+        vertical-align: middle;            
+        margin: auto;           
+        font-size: 250%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbars a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbars a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    }        
+
+/* One sections of the Body - Big Screen (more 900px) */ 
+.wrapperb {
+    padding-top: 0.5%; 
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+    padding-bottom: 1%; 
+    width: 55%; 
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+
+    /* Fonts of the Body */
+    .wrapperb h1 {  
+        text-align: center;
+        font-size: 250%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+
+    .wrapperb h2 {  
+        text-align: center;
+        font-size: 175%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    }
+    
+    .wrapperb h3 {  
+        text-align: left;
+        font-size: 150%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }    
+
+    .wrapperb p {  
+        text-align: justify;
+        font-size: 125%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .wrapperb p a {
+            font-weight: bold;
+            color: #3b5198;
+        }
+
+        .wrapperb p a:hover {
+            font-weight: bold;
+            color: #666666;
+        }  
+    
+/* One section of the Body - Small Screen (less 900px) */ 
+.wrappers {
+    padding-top: 3%; 
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 5%;
+    width: 85%; 
+    height: auto;
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+    
+    /* Fonts of the One Section Body */
+    .wrappers h1 {  
+        text-align: center;
+        font-size: 400%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+    
+    .wrappers h2 {  
+        text-align: center;
+        font-size: 275%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    }
+    
+    .wrappers h3 {  
+        text-align: left;
+        font-size: 250%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }    
+
+    .wrappers p {  
+        text-align: justify;
+        font-size: 225%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .wrappers p a {
+            font-weight: bold;
+            color: #3b5198;
+        }
+
+        .wrappers p a:hover {
+            font-weight: bold;
+            color: #666666;
+        }         
+    
+/* Media Information for Different Devices */
+    
+    /* Laptop and Desktop */    
+    @media only screen and (min-width: 900.5px) {
+        
+        .headers {
+            display: none;
+        }            
+            
+        .navbars {
+            display: none;
+        }
+            
+        .hright1 {
+            display: none;
+        }
+            
+        .wrappers {
+            display: none;
+        } 
+            
+    }   
+
+    /* Ipad and Tablet */
+    @media only screen and (max-width: 900.5px) {         
+            
+        .headerb {
+            display: none;
+        }            
+            
+        .navbarb {
+            display: none;
+        }
+            
         .wrapperb {
-            padding-bottom: 0.7%;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 0.7%;
-            width: 60%;
-            height: auto;
-            display: table;
-            vertical-align: middle;
-            margin: auto;
-        }   
+            display: none;
+        }    
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
+        }
+
+    }    
     
-            /* Fonts of the One Section Body */
-            .wrapperb h1 {  
-                text-align: center;
-                font-size: 200%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #3b5198;
-                margin: auto; 
-            }   
-
-            .wrapperb h2 {  
-                text-align: center;
-                font-size: 150%;
-                line-height: 125%;
-                font-weight: 100;
-                color: #af7714;
-                margin: auto; 
-            }
-
-            .wrapperb h3 {  
-                text-align: left;
-                font-size: 125%;
-                line-height: 125%;
-                font-weight: 100;
-                color: #3b5198;
-                margin: auto; 
-            }     
-
-            .wrapperb p {  
-                text-align: justify;
-                font-size: 100%;
-                line-height: 125%;
-                font-weight: 100;
-                color: #666666;
-                margin: auto; 
-            }
-
-            .wrapperb p a {
-                font-weight: bold;
-                color: #3b5198;
-            }
-
-            .wrapperb p a:hover {
-                font-weight: bold;
-                color: #666666;
-            }
-
-        /* The Footer */
-        .footer {
-            padding-bottom: 0.5%;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 1%;        
-            width: 100%;
-            height: auto;
-            background-color: #fdfdfd;
-            margin: auto; 
-        } 
-    
-            /* Fonts of the Footer */
-            .footer p {  
-                text-align: center;
-                font-size: 90%;
-                line-height: 100%;
-                font-weight: 100;
-                color: #666666; 
-                margin: auto; 
-            }
-    
-    /* Media Information for Different Devices */
-    
-        /* Phone */
-        @media only screen and (max-width: 450px) { 
+    /* Phone */
+    @media only screen and (max-width: 450px) { 
+         
+        .headerb{
+            display: none;
+        }            
             
-            .header {
-                padding-left: 2.5%;
-                padding-right: 2.5%;
-                width: 95%; 
-                height: auto;
-                background: #fdfdfd;
-                margin: auto;       
-            }  
-
-                .hright1 {
-                    width: 20%;
-                    padding-left: 1.5%;
-                    padding-right: 1.5%;
-                    margin: auto;
-                }   
-
-                .hright2 {
-                    width: 20%;
-                    height: auto;
-                    vertical-align: middle;
-                } 
-            
-                .navbar {
-                    float: none;
-                    display: block;
-                }
-
-                .navbar a {
-                    font-size: 300%;
-                    width: 100%;
-                    height: 20%;
-                    vertical-align: middle;            
-                    margin: auto;
-                }             
-
-                .header h1 { 
-                    font-size: 550%;
-                }
-
-                .header h2 { 
-                    font-size: 350%;
-                }           
-
-            .wrapperb {
-                width: 95%;
-            }          
-            
-                .wrapperb h1 {  
-                    font-size: 480%;
-                }   
-
-                .wrapperb h2 {  
-                    font-size: 360%;
-                }
-
-                .wrapperb h3 {  
-                    font-size: 300%;
-                }     
-
-                .wrapperb p {  
-                    font-size: 240%; 
-                }             
-
-            .footer {
-                padding-top: 3%;
-            }
-
-                .footer p {  
-                    font-size: 180%;
-                }
-
+        .navbarb{
+            display: none;
         }        
-
-        /* Ipad and Tablet */
-        @media only screen and (max-width: 1024.5px) { 
-
-            .header {
-                padding-left: 2.5%;
-                padding-right: 2.5%;
-                width: 95%; 
-                height: auto;
-                background: #fdfdfd;
-                margin: auto;       
-            }  
-
-                .hright1 {
-                    width: 20%;
-                    padding-left: 1.5%;
-                    padding-right: 1.5%;
-                    margin: auto;
-                }   
-
-                .hright2 {
-                    width: 20%;
-                    height: auto;
-                    vertical-align: middle;
-                } 
             
-                .navbar {
-                    float: none;
-                    display: block;
-                }
-
-                .navbar a {
-                    font-size: 250%;
-                    width: 100%;
-                    height: 20%;
-                    vertical-align: middle;            
-                    margin: auto;
-                }              
-
-                .header h1 { 
-                    font-size: 550%;
-                }
-
-                .header h2 { 
-                    font-size: 350%;
-                }
-
-            .wrapperb {
-                width: 95%;
-            }          
-   
-                .wrapperb h1 {  
-                    font-size: 400%;
-                }   
-
-                .wrapperb h2 {  
-                    font-size: 300%;
-                }
-
-                .wrapperb h3 {  
-                    font-size: 250%;
-                }     
-
-                .wrapperb p {  
-                    font-size: 200%; 
-                }            
-
-            .footer {
-                padding-top: 3%;
-            }
-
-                .footer p {  
-                    font-size: 180%;
-                }
-
+        .wrapperb {
+            display: none;
+        } 
+        
+        .hleft {
+            width: 60%; 
         }
-
-        /* Laptop and Desktop */    
-        @media only screen and (min-width: 1024.5px) {
-            
-            .hright1 {
-                display: none;
-            }
-            
-        }
+        
+        .hright2 {
+            width: 15%;
+        }        
+               
+    }        
 
 </style>    
      
@@ -389,46 +403,82 @@
     
     <body>
 
-        <!-- Header -->
-        <div class = "header">
+        <!-- Header Large Screen (more 900px) -->
+        <div class = "headerb">
             <div class="wrapperh">
                 <div class="hleft">
                     <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz-García</a></h1> 
+                </div>            
+                <div class="hright2"> 
+                    <div class="navbarb">
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                        <a style="vertical-align: middle;" class="active" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" href="home.html">Home</a>
+                    </div>                    
+                </div>
+            </div> 
+        </div>
+        <!-- Header Small Screen (less 900px) -->
+        <div class = "headers">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz-García</a></h1> 
+                    <h2 style="padding-top: 5%;"> <a style="padding-top: 5%; text-decoration: none;" href="http://www.cam.ac.uk/" target="_blank">University of Cambridge</a></h2>
+                    <p style="padding-top: 2%;">Sidgwick Avenue - Austin Robinson Building<br>CB3 9DD Cambridge - UK</p>
+                    <p style="padding-top: 3%; font-size: 225%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:jcrg3@cam.ac.uk">jcrg3@cam.ac.uk</a></p>
                 </div>
                 <div class="hright1"> 
                     <img src="files/photo2.jpg" alt="centered image" height="auto" width="100%">                     
                 </div>              
                 <div class="hright2"> 
-                    <div class="navbar">
-                        <a style="vertical-align: middle;" href="home.html">Home</a>     
+                    <div class="navbars">
+                        <a style="vertical-align: middle;" href="home.html">Home</a>
                         <a style="vertical-align: middle;" href="cv.html">CV</a>
                         <a style="vertical-align: middle;" href="research.html">Research</a>
                         <a style="vertical-align: middle;" class="active" href="teaching.html">Teaching</a>
-                        <a style="vertical-align: middle;" href="references.html">References</a>         
-                    </div>                       
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                    </div>                    
                 </div>
-            </div>  
-        </div>
-        
-        <!-- Main Body -->    
-        <div class = "wrapperb"> 
-            <h1 style="padding-top: 3%;">Teaching</h1>
-            <h2 style="padding-top: 2%;">Teaching Assistant</h2>
-            <h3 style="padding-top: 3%; padding-left: 3%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/studies/master/course.asp?c=101114" target="_blank">Macroeconomics I &#8210 18/19</a></h3>
-            <p style="padding-left: 5%; padding-right: 8%; padding-top: 1.5%;"><b>Topics:</b> Neoclassical Growth Models, Consumption, OLG, Firms, Money</p>
-            <p style="padding-left: 5%; padding-right: 8%; padding-top: 1%;"><b>Professor:</b> <a style="text-decoration: none;" href="https://www.cemfi.es/~pijoan/" target="_blank">Josep Pijoan-Mas</a></p>
-            <p style="padding-left: 5%; padding-right: 8%; padding-top: 1%;"><a style="text-decoration: none; font-weight: bold;" href="files/Ruiz-Garcia_Macro-I_TA-II.pdf" target="_blank">Student's Evaluation:</a> A Global Assessment of <b style="color: #3b5198;">4.8</b> out of <b>5</b></p>
-
-            <h3 style="padding-top: 3%; padding-left: 3%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/studies/master/course.asp?c=101114" target="_blank">Macroeconomics I &#8210 17/18</a></h3>
-            <p style="padding-left: 5%; padding-right: 8%; padding-top: 1.5%;"><b>Topics:</b> Neoclassical Growth Models, Consumption, OLG, Macro-Development</p>
-            <p style="padding-left: 5%; padding-right: 8%; padding-top: 1%;"><b>Professors:</b> <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/duarte/" target="_blank">Margarida Duarte</a> (<a style="text-decoration: none;" href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>) and <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia</a> (<a style="text-decoration: none;" href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>)</p>
-            <p style="padding-left: 5%; padding-right: 8%; padding-top: 1%;"><a style="text-decoration: none; font-weight: bold;" href="files/Ruiz-Garcia_Macro-I_TA-I.pdf" target="_blank">Student's Evaluation:</a> A Global Assessment of <b style="color: #3b5198;">4.1</b> out of <b>5</b></p>
+            </div> 
         </div>        
+
+        <!-- Main Body - Large Screen (more 900px) --> 
+        <div class = "wrapperb" style="padding-bottom: 0%;"> 
+            <h1 style="padding-top: 1%;">Teaching</h1>
+            <h2 style="padding-top: 3%;">Teaching Assistant</h2>
+        </div>  
+        <div class = "wrapperb" style="padding-bottom: 0%;">           
+            <h3 style="padding-top: 5%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/studies/master/course.asp?c=101114" target="_blank">Macroeconomics I &#8210 18/19</a></h3>
+            <p style="padding-left: 3%; padding-right: 5%; padding-top: 3%;"><b>Topics:</b> Neoclassical Growth Models, Consumption, OLG, Firms, Money</p>
+            <p style="padding-left: 3%; padding-right: 5%; padding-top: 1.5%;"><b>Professor:</b> <a style="text-decoration: none;" href="https://www.cemfi.es/~pijoan/" target="_blank">Josep Pijoan-Mas</a></p>
+            <p style="padding-left: 3%; padding-right: 5%; padding-top: 1.5%;"><b>Student's Evaluation:</b> A Global Assessment of <b style="color: #3b5198;">4.8</b> out of <b>5</b></p>
+        </div>  
+        <div class = "wrapperb"> 
+            <h3 style="padding-top: 5%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/studies/master/course.asp?c=101114" target="_blank">Macroeconomics I &#8210 17/18</a></h3>
+            <p style="padding-left: 3%; padding-right: 5%; padding-top: 3%;"><b>Topics:</b> Neoclassical Growth Models, Consumption, OLG, Macro-Development</p>
+            <p style="padding-left: 3%; padding-right: 5%; padding-top: 1.5%;"><b>Professors:</b> <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/duarte/" target="_blank">Margarida Duarte</a> (<a style="text-decoration: none;" href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>) and <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia</a> (<a style="text-decoration: none;" href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>)</p>
+            <p style="padding-left: 3%; padding-right: 5%; padding-top: 1.5%;"><b>Student's Evaluation:</b> A Global Assessment of <b style="color: #3b5198;">4.1</b> out of <b>5</b></p>
+        </div> 
         
-        <!-- Footer -->                 
-        <div class = "footer">    
-            <p>&copy; 2019 by Juan Carlos Ruiz-García</p>
-        </div>       
+        <!-- Main Body - Small Screen (less 900px) --> 
+         <div class = "wrappers" style="padding-top: 0%; padding-bottom: 1%;"> 
+            <h1 style="padding-top: 1%;">Teaching</h1>
+            <h2 style="padding-top: 2%;">Teaching Assistant</h2>
+        </div>   
+        <div class = "wrappers" style="padding-top: 0%; padding-bottom: 0%;">      
+            <h3 style="padding-top: 7%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/studies/master/course.asp?c=101114" target="_blank">Macroeconomics I &#8210 18/19</a></h3>
+            <p style="padding-left: 5%; padding-right: 5%; padding-top: 3%;"><b>Topics:</b> Neoclassical Growth Models, Consumption, OLG, Firms, Money</p>
+            <p style="padding-left: 5%; padding-right: 5%; padding-top: 1.5%;"><b>Professor:</b> <a style="text-decoration: none;" href="https://www.cemfi.es/~pijoan/" target="_blank">Josep Pijoan-Mas</a></p>
+            <p style="padding-left: 5%; padding-right: 5%; padding-top: 1.5%;"><b>Student's Evaluation:</b> A Global Assessment of <b style="color: #3b5198;">4.8</b> out of <b>5</b></p>
+        </div>  
+        <div class = "wrappers" style="padding-top: 0%; padding-bottom: 3%;"> 
+            <h3 style="padding-top: 7%;"><a style="text-decoration: none; color: #af7714;" href="https://www.cemfi.es/studies/master/course.asp?c=101114" target="_blank">Macroeconomics I &#8210 17/18</a></h3>
+            <p style="padding-left: 5%; padding-right: 5%; padding-top: 3%;"><b>Topics:</b> Neoclassical Growth Models, Consumption, OLG, Macro-Development</p>
+            <p style="padding-left: 5%; padding-right: 5%; padding-top: 1.5%;"><b>Professors:</b> <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/duarte/" target="_blank">Margarida Duarte</a> (<a style="text-decoration: none;" href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>) and <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia</a> (<a style="text-decoration: none;" href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>)</p>
+            <p style="padding-left: 5%; padding-right: 5%; padding-top: 1.5%;"><b>Student's Evaluation:</b> A Global Assessment of <b style="color: #3b5198;">4.1</b> out of <b>5</b></p>
+        </div>   
         
     </body>
     
