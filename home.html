@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!-- Webpage of Juan Carlos Ruiz-Garcia http://jcruizgarcia.com/ -->
+<html lang="en">
+<head>
+<title>JC Ruiz-Garcia &#8210 Home</title>    
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Juan Carlos Ruiz-García">
+    
+<!-- <meta name="description" content="Personal website of Juan Carlos Ruiz-Garcia - JRC"> -->
+    
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">  
+    
+<style>  
+    
+/* Style of the Body */
+body{       
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+    background: #fdfdfd;
+    margin: auto;
+    overflow-y: scroll;
+} 
+/* Style of the Header - Big Screen (more 900px) */
+.headerb {
+    padding-top: 1%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    width: 90%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+} 
+    /* Fonts of the Header */
+    .headerb h1 {  
+        padding-top: 1%;
+        padding-bottom: 1%;        
+        text-align: left;        
+        font-size: 400%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;        
+    }  
+    
+/* Style of the Header - Small Screen (less 900px) */    
+.headers {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 3%; 
+    width: 95%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+}
+    /* Fonts of the Header */
+    .headers h1 {          
+        text-align: center;        
+        font-size: 500%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;        
+    }  
+    
+    .headers h2 {  
+        text-align: center;
+        font-size: 275%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
+    } 
+
+    .headers p {  
+        text-align: center;
+        font-size: 175%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
+    }
+    
+        /* Links of the Header */
+        .headers a {
+            color: #666666;
+        }
+
+        .headers a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        }     
+    
+/* Two sections of the Header */
+.wrapperh {
+    width: 100%;
+    height: auto;
+    display: table;
+    vertical-align: middle;        
+    margin: auto; 
+}
+
+.hleft {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}  
+
+.hright1 {
+    padding-top: 1.5%; 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    width: 23%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}
+
+.hright2 {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}        
+
+/* Navigation Bar of the Header - Big Screen (more 900px) */
+.navbarb {
+    padding-top: 1%;
+    padding-bottom: 1%;   
+    width: 100%;
+    height: auto;          
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+
+    .navbarb a {
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 1%;            
+        width: auto; 
+        height: 100%; 
+        color: #666666; 
+        float: right;
+        font-size: 120%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbarb a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbarb a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    } 
+    
+/* Navigation Bar of the Header - Small Screen (less 900px) */  
+.navbars {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    float: none;
+    display: block;
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+        
+    .navbars a {
+        padding-top: 3.3%;
+        padding-bottom: 3.3%;
+        width: 100%; 
+        height: 20%;  
+        color: #666666;
+        float: left; 
+        vertical-align: middle;            
+        margin: auto;           
+        font-size: 250%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbars a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbars a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    }        
+
+/* Two sections of the Body - Big Screen (more 900px) */ 
+.wrapperb {
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-bottom: 0.5%; 
+    width: 75%; 
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+    
+/* Left of the main Body */
+.bleft {
+    padding-top: 1%; 
+    padding-bottom: 1%;    
+    width: 30%;
+    height: auto;        
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    margin: auto; 
+}  
+       /* Section of the Photo */ 
+        .bleft photo {
+            height: auto;
+            display: table-cell;
+            vertical-align: middle;
+            margin: auto;
+        }      
+        /* Fonts of the Left Body */
+        .bleft h1 {  
+            text-align: center;
+            font-size: 200%;
+            line-height: 100%;
+            font-weight: 100;
+            color: #3b5198;
+            margin: auto; 
+        }   
+
+        .bleft h2 {  
+            text-align: center;
+            font-size: 125%;
+            line-height: 100%;
+            font-weight: 100;
+            color: #666666;
+            margin: auto; 
+        } 
+
+        .bleft p {  
+            text-align: center;
+            font-size: 100%;
+            line-height: 130%;
+            font-weight: 100;
+            color: #666666;
+            margin: auto; 
+        }
+    
+            /* Links of the Left Body */
+            .bleft a {
+                color: #666666;
+            }
+
+            .bleft a:hover {
+                font-weight: bold;
+                color: #3b5198;
+            }   
+
+/* Right of the main Body */
+.bright {      
+    padding-left: 5%; 
+    width: 70%;
+    height: auto;        
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto; 
+}
+    /* Fonts of the Right Body */
+    .bright h1 {  
+        text-align: left;
+        font-size: 250%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+
+    .bright p {  
+        text-align: justify;
+        font-size: 125%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .bright p a {
+            font-weight: bold;
+            color: #3b5198;
+        }
+
+        .bright p a:hover {
+            font-weight: bold;
+            color: #666666;
+        }  
+    
+/* One section of the Body - Small Screen (less 900px) */ 
+.wrappers {
+    padding-top: 3%; 
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 5%;
+    width: 85%; 
+    height: auto;
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+    
+    /* Fonts of the One Section Body */
+    .wrappers h1 {  
+        text-align: center;
+        font-size: 400%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+
+    .wrappers p {  
+        text-align: justify;
+        font-size: 225%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .wrappers p a {
+            font-weight: bold;
+            color: #3b5198;
+        }
+
+        .wrappers p a:hover {
+            font-weight: bold;
+            color: #666666;
+        }         
+    
+/* Media Information for Different Devices */
+    
+    /* Laptop and Desktop */    
+    @media only screen and (min-width: 900.5px) {
+        
+        .headers {
+            display: none;
+        }            
+            
+        .navbars {
+            display: none;
+        }
+            
+        .hright1 {
+            display: none;
+        }
+            
+        .wrappers {
+            display: none;
+        } 
+            
+    }   
+
+    /* Ipad and Tablet */
+    @media only screen and (max-width: 900.5px) {         
+            
+        .headerb {
+            display: none;
+        }            
+            
+        .navbarb {
+            display: none;
+        }
+            
+        .wrapperb {
+            display: none;
+        }    
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
+        }
+
+    }    
+    
+    /* Phone */
+    @media only screen and (max-width: 450px) { 
+         
+        .headerb{
+            display: none;
+        }            
+            
+        .navbarb{
+            display: none;
+        }
+                    
+        .wrapperb {
+            display: none;
+        } 
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
+        }        
+               
+    }        
+
+</style>    
+     
+</head>
+    
+    <body>
+
+        <!-- Header Large Screen (more 900px) -->
+        <div class = "headerb">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz&#8211Garcia</a></h1> 
+                </div>            
+                <div class="hright2"> 
+                    <div class="navbarb">
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                        <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" class="active" href="home.html">Home</a>
+                    </div>                    
+                </div>
+            </div> 
+        </div>
+        <!-- Header Small Screen (less 900px) -->
+        <div class = "headers">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz&#8211Garcia</a></h1> 
+                    <h2 style="padding-top: 5%;"> <a style="padding-top: 5%; text-decoration: none;" href="https://joint-research-centre.ec.europa.eu/index_en" target="_blank">Joint Research Centre &#8212 EC</a></h2>
+                    <p style="padding-top: 2%;">C. Inca Garcilaso, 3<br>Expo Building &#8211 Office PB&#8211;19<br>41092 &#8211 Sevilla &#8211 Andalucia &#8211 Spain</p>
+                    <p style="padding-top: 0%; font-size: 225%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:ruizgarcia.juancar@gmail.com">ruizgarcia.juancar@gmail.com</a></p>
+                </div>
+                <div class="hright1"> 
+                    <img src="files/photo2.jpg" alt="centered image" height="auto" width="100%">                     
+                </div>              
+                <div class="hright2"> 
+                    <div class="navbars">
+                        <a style="vertical-align: middle;" class="active" href="home.html">Home</a>
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                    </div>                    
+                </div>
+            </div> 
+        </div>     
+
+        <!-- Main Body - Large Screen (more 900px) -->    
+        <div class = "wrapperb"> 
+            <div class="bleft">
+                <div class="photo">
+                    <img src="files/photo3.jpg" alt="centered image" height="auto" width="90%">
+                </div>
+                <h1 style="padding-top: 5%;">Contact Information</h1>
+                <h2 style="padding-top: 5%;"> <a style="padding-top: 5%; text-decoration: none;" href="https://joint-research-centre.ec.europa.eu/index_en" target="_blank">Joint Research Centre &#8212 EC</a></h2>
+                <p style="padding-top: 2%;">C. Inca Garcilaso, 3<br>Expo Building &#8211 Office PB&#8211;19<br>41092 &#8211 Sevilla &#8211 Andalucia &#8211 Spain</p>
+                <p style="padding-top: 1.5%; font-size: 115%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:ruizgarcia.juancar@gmail.com">ruizgarcia.juancar@gmail.com</a></p>
+            </div>
+            <div class="bright">
+                
+                <h1>Welcome to my Website!</h1> 
+                
+                <p style="padding-top: 5%;">I am a <b>Macroeconomist</b> with both theoretical and empirical interests. I have received my <b>Ph.D. in Economics and Government</b> from <a style="text-decoration: none;" href="http://www.cemfi.es/" target="_blank">Center for Monetary and Financial Studies (CEMFI)</a>.</p>
+                
+                <p style="padding-top: 3%;">My main research focuses on <b>Firm Dynamics</b> with a special interest in understanding how economic frictions, e.g., financial frictions, adjustment costs, affect firms in the economy, and as a result, aggregate productivity and output. I also work in <b>Development Economics</b>, particularly understanding the determinants of Poverty and Inequality both across and within countries.</p> 
+                
+                <p style="padding-top: 3%;">I am an Economic Analyst of the Input&#8211Output Global Value Chain and Productivity Team (IOGVCPROD) of <a style="text-decoration: none;" href="https://op.europa.eu/en/web/who-is-who/organization/-/organization/JRC/COM_CRF_242937" target="_blank">the Knowledge for Finance, Innovation, and Growth Unit (B7)</a> of <a style="text-decoration: none;" href="https://joint-research-centre.ec.europa.eu/index_en" target="_blank">the Joint Research Centre in Sevilla (JRC-Sevilla)</a> of <a style="text-decoration: none;" href="https://ec.europa.eu/info/index_en" target="_blank">the European Commission</a>.  
+                
+            </div> 
+        </div>
+        
+        <!-- Main Body - Small Screen (less 900px) --> 
+        <div class = "wrappers">
+            
+            <h1>Welcome to my Website!</h1>   
+            
+            <p style="padding-top: 5%;">I am a <b>Macroeconomist</b> with both theoretical and empirical interests. I have received my <b>Ph.D. in Economics and Government</b> from <a style="text-decoration: none;" href="http://www.cemfi.es/" target="_blank">Center for Monetary and Financial Studies (CEMFI)</a>.</p>
+            
+            <p style="padding-top: 3%;">My main research focuses on <b>Firm Dynamics</b> with a special interest in understanding how economic frictions, e.g., financial frictions, adjustment costs, affect firms in the economy, and as a result, aggregate productivity and output. I also work in <b>Development Economics</b>, particularly understanding the determinants of Poverty and Inequality both across and within countries.</p> 
+                
+            <p style="padding-top: 3%;">I am an Economic Analyst of the Input&#8211Output Global Value Chain and Productivity Team (IOGVCPROD) of <a style="text-decoration: none;" href="https://op.europa.eu/en/web/who-is-who/organization/-/organization/JRC/COM_CRF_242937" target="_blank">the Knowledge for Finance, Innovation, and Growth Unit (B7)</a> of <a style="text-decoration: none;" href="https://joint-research-centre.ec.europa.eu/index_en" target="_blank">the Joint Research Centre in Sevilla (JRC-Sevilla)</a> of <a style="text-decoration: none;" href="https://ec.europa.eu/info/index_en" target="_blank">the European Commission</a>.      
+            
+        </div>   
+        
+    </body>
+    
+</html>

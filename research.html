@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<!-- Webpage of Juan Carlos Ruiz-Garcia http://jcruizgarcia.com/ -->
+<html lang="en">
+<head>
+<title>JC Ruiz-Garcia &#8210 Resarch</title>    
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Juan Carlos Ruiz-García">
+    
+<!-- <meta name="description" content="Personal website of Juan Carlos Ruiz-Garcia - JRC"> -->
+    
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="icon" href="files/favicon.ico" type="image/gif" sizes="16x16">  
+    
+<style>  
+    
+/* Style of the Body */
+body{       
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    font-weight: 100;
+    background: #fdfdfd;
+    margin: auto;
+    overflow-y: scroll;
+} 
+/* Style of the Header - Big Screen (more 900px) */
+.headerb {
+    padding-top: 1%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    width: 90%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+} 
+    /* Fonts of the Header */
+    .headerb h1 {  
+        padding-top: 1%;
+        padding-bottom: 1%;        
+        text-align: left;        
+        font-size: 400%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;        
+    }  
+    
+/* Style of the Header - Small Screen (less 900px) */    
+.headers {
+    padding-top: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 3%; 
+    width: 95%; 
+    height: auto;
+    background: #fdfdfd;
+    margin: auto;       
+}
+    /* Fonts of the Header */
+    .headers h1 {          
+        text-align: center;        
+        font-size: 500%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;        
+    }  
+    
+    .headers h2 {  
+        text-align: center;
+        font-size: 275%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
+    } 
+
+    .headers p {  
+        text-align: center;
+        font-size: 175%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto; 
+    }
+    
+        /* Links of the Header */
+        .headers a {
+            color: #666666;
+        }
+
+        .headers a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        }     
+    
+/* Two sections of the Header */
+.wrapperh {
+    width: 100%;
+    height: auto;
+    display: table;
+    vertical-align: middle;        
+    margin: auto; 
+}
+
+.hleft {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}  
+
+.hright1 {
+    padding-top: 1.5%; 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    width: 23%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}
+
+.hright2 {
+    width: 50%;
+    height: 20%;        
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto; 
+}        
+
+/* Navigation Bar of the Header - Big Screen (more 900px) */
+.navbarb {
+    padding-top: 1%;
+    padding-bottom: 1%;   
+    width: 100%;
+    height: auto;          
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+
+    .navbarb a {
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 1%;            
+        width: auto; 
+        height: 100%; 
+        color: #666666; 
+        float: right;
+        font-size: 120%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbarb a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbarb a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    } 
+    
+/* Navigation Bar of the Header - Small Screen (less 900px) */  
+.navbars {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    float: none;
+    display: block;
+    list-style-type: none;
+    background-color: #fdfdfd;
+}
+        
+    .navbars a {
+        padding-top: 3.3%;
+        padding-bottom: 3.3%;
+        width: 100%; 
+        height: 20%;  
+        color: #666666;
+        float: left; 
+        vertical-align: middle;            
+        margin: auto;           
+        font-size: 250%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .navbars a:hover {
+        color: #fdfdfd;
+        background-color: #666666;
+    }
+
+    .navbars a.active {
+        color: #fdfdfd; 
+        background-color: #3b5198;
+    }        
+
+/* One sections of the Body - Big Screen (more 900px) */ 
+.wrapperb {
+    padding-top: 0.5%; 
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    padding-bottom: 1%; 
+    width: 77%; 
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+
+    /* Fonts of the Body */
+    .wrapperb h1 {  
+        text-align: center;
+        font-size: 250%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+
+    .wrapperb h2 {  
+        text-align: center;
+        font-size: 175%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    }
+    
+    .wrapperb h3 {  
+        text-align: left;
+        font-size: 150%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #af7714;
+        margin: auto;
+    }    
+
+    .wrapperb p {  
+        text-align: justify;
+        font-size: 125%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .wrapperb h3 a {
+            color: #af7714;
+        }
+
+        .wrapperb h3 a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        } 
+ 
+        .wrapperb p a {
+            color: #666666;
+        }
+
+        .wrapperb p a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        }
+    
+/* One section of the Body - Small Screen (less 900px) */ 
+.wrappers {
+    padding-top: 3%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 90%; 
+    height: auto;
+    min-height: 100%;
+    display: table;
+    vertical-align: middle;
+    margin: auto;
+} 
+    
+    /* Fonts of the One Section Body */
+    .wrappers h1 {  
+        text-align: center;
+        font-size: 400%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #3b5198;
+        margin: auto;
+    }
+    
+    .wrappers h2 {  
+        text-align: center;
+        font-size: 275%;
+        line-height: 100%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    }
+    
+    .wrappers h3 {  
+        text-align: left;
+        font-size: 250%;
+        line-height: 125%;
+        font-weight: 100;
+        color: #af7714;
+        margin: auto;
+    }    
+
+    .wrappers p {  
+        text-align: justify;
+        font-size: 225%;
+        line-height: 150%;
+        font-weight: 100;
+        color: #666666;
+        margin: auto;
+    } 
+            
+        /* Links of the Right Body */
+        .wrappers h3 a {
+            color: #af7714;
+        }
+
+        .wrappers h3 a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        } 
+ 
+        .wrappers p a {
+            color: #666666;
+        }
+
+        .wrappers p a:hover {
+            font-weight: bold;
+            color: #3b5198;
+        }         
+    
+/* Media Information for Different Devices */
+    
+    /* Laptop and Desktop */    
+    @media only screen and (min-width: 900.5px) {
+        
+        .headers {
+            display: none;
+        }            
+            
+        .navbars {
+            display: none;
+        }
+            
+        .hright1 {
+            display: none;
+        }
+            
+        .wrappers {
+            display: none;
+        } 
+            
+    }   
+
+    /* Ipad and Tablet */
+    @media only screen and (max-width: 900.5px) {         
+            
+        .headerb {
+            display: none;
+        }            
+            
+        .navbarb {
+            display: none;
+        }
+            
+        .wrapperb {
+            display: none;
+        }    
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
+        }
+
+    }    
+    
+    /* Phone */
+    @media only screen and (max-width: 450px) { 
+         
+        .headerb{
+            display: none;
+        }            
+            
+        .navbarb{
+            display: none;
+        }        
+            
+        .wrapperb {
+            display: none;
+        } 
+        
+        .hleft {
+            width: 60%; 
+        }
+        
+        .hright2 {
+            width: 15%;
+        }        
+               
+    }        
+
+</style>    
+     
+</head>
+    
+    <body>
+
+        <!-- Header Large Screen (more 900px) -->
+        <div class = "headerb">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz&#8211Garcia</a></h1> 
+                </div>            
+                <div class="hright2"> 
+                    <div class="navbarb">
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                        <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" class="active" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" href="home.html">Home</a>
+                    </div>                    
+                </div>
+            </div> 
+        </div>
+        <!-- Header Small Screen (less 900px) -->
+        <div class = "headers">
+            <div class="wrapperh">
+                <div class="hleft">
+                    <h1><a style="text-decoration: none; font-weight: 100; color: #3b5198;" href="home.html">Juan Carlos Ruiz&#8211Garcia</a></h1> 
+                    <h2 style="padding-top: 5%;"> <a style="padding-top: 5%; text-decoration: none;" href="https://joint-research-centre.ec.europa.eu/index_en" target="_blank">Joint Research Centre &#8212 EC</a></h2>
+                    <p style="padding-top: 2%;">C. Inca Garcilaso, 3<br>Expo Building &#8211 Office PB&#8211;19<br>41092 &#8211 Sevilla &#8211 Andalucia &#8211 Spain</p>
+                    <p style="padding-top: 0%; font-size: 225%;"><a style="padding-top: 5%; text-decoration: none;" href="mailto:ruizgarcia.juancar@gmail.com">ruizgarcia.juancar@gmail.com</a></p>
+                </div>
+                <div class="hright1"> 
+                    <img src="files/photo2.jpg" alt="centered image" height="auto" width="100%">                     
+                </div>              
+                <div class="hright2"> 
+                    <div class="navbars">
+                        <a style="vertical-align: middle;" href="home.html">Home</a>
+                        <a style="vertical-align: middle;" href="cv.html">CV</a>
+                        <a style="vertical-align: middle;" class="active" href="research.html">Research</a>
+                        <a style="vertical-align: middle;" href="teaching.html">Teaching</a>
+                        <a style="vertical-align: middle;" href="references.html">References</a>
+                    </div>                    
+                </div>
+            </div> 
+        </div>         
+
+        <!-- Main Body - Large Screen (more 900px) -->    
+        <div class = "wrapperb" style="padding-bottom: 0%;"> 
+            <h1 style="padding-top: 0.75%;">Research</h1>
+            <h2 style="padding-top: 2.15%;">Working Papers</h2>
+        </div>    
+        <div class = "wrapperb" style="padding-bottom: 0%;"> 
+            
+            <h3 style="padding-top: 3%; text-align: center;"><a style="text-decoration: none" href="files/RuizGarcia_PDandFF.pdf" target="_blank">Financial Frictions, Firm Dynamics and the Aggregate Economy: Insights from Richer Productivity Processes</a></h3>     
+            <p style="padding-top: 0.75%; text-align: center; color: #3b5198; font-size: 125%;">Janeway Institute Working Paper JIWP2103 doi: 10.17863/CAM.74481</p>            
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 100%;">How do financial frictions affect firm dynamics, allocation of resources across firms, and aggregate productivity and output? Is the nature of productivity shocks that firms face essential for evaluating the effects of financial frictions? To answer these questions, I first use a comprehensive dataset of Spanish firms from 1999 to 2014 to estimate and characterize the firms' productivity dynamics. I find that the productivity process is non-linear, as persistence and shock variability depend on past productivity. Furthermore, productivity shocks are non-Gaussian. These dynamics are at odds with those implied by the standard AR(1) process commonly used in the firm dynamics literature. I then build a model of firm dynamics with financial frictions in which productivity shocks are non-linear and non-Gaussian. The model is consistent with a host of evidence on firm dynamics, financial frictions, and firms' financial behavior. In the model Economy, financial frictions affect the firms' life cycle. Without financial frictions, the size gap between an entrant firm and an old one would be reduced by three fourths. Furthermore, profit accumulation, which allows firms to overcome financial frictions, is slow, and it only speeds up when firms are mature. As a consequence, the average exit firm is smaller than it would be without financial frictions. The aggregate effects of financial frictions are significant. They result in misallocation of capital and reduce aggregate productivity by 16%. This figure is only 8% if productivity dynamics evolve according to a standard AR(1) representation. The general equilibrium forces amplify the positive effects of removing financial frictions. Capital deepening and more firms operating in the Economy boost total output, consumption, and wages by around 50%.</p>
+            <p style="padding-top: 1%; font-size: 100%;"><b>JEL Codes:</b> E22, G32, O16</p>
+            <p style="padding-top: 0.5%; font-size: 100%;"><b>Keywords:</b> Firm Dynamics, Non-Linear Productivity Process, Financial Frictions, Misallocation</p>
+            
+            <h3 style="padding-top: 3%; text-align: center;"><a style="text-decoration: none" href="files/FGGGS_NLPandID.pdf" target="_blank">Non-Linear TFP and Investment Dynamics</a></h3>     
+            <p style="padding-top: 0.50%; text-align: center; color: #3b5198; font-size: 125%;">Preliminary</p>  
+            <p style="padding-top: 0.25%; text-align: center; color: #666666; font-size: 100%;">with <a style="text-decoration: none;" href="https://giuliofella.net/" target="_blank">Giulio Fella &#8210 QMUL</a>, <a style="text-decoration: none;" href="https://sites.google.com/view/juliogalvezresearch/" target="_blank">Julio Gálvez &#8210 BdE</a>, <a style="text-decoration: none;" href="https://beatrizgonzalezlopez.weebly.com/" target="_blank">Beatriz González &#8210 BdE</a> and <a style="text-decoration: none;" href="http://tatsuro-senga.net/index.html" target="_blank">Tatsuro Senga &#8210 QMUL</a>
+            </p>            
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 100%;">The nature of productivity shocks is a central feature of models of heterogeneous-firm dynamics. Using firm-level data from Spain, we show that the observed productivity dynamics differ from those implied by the canonical, linear AR(1) representation with normally-distributed shocks. We document that the productivity process features non-linear persistence and non-normality. Motivated by this, we estimate a flexible stochastic process for productivity which allows for these features and compare its implications with the canonical one. We find that the flexible model fits the productivity data much better. We also estimate non-parametric, semi-reduced form empirical investment functions and find that the two processes imply very different responses to productivity shocks. Those estimated under the flexible process fit much better the relationship between investment and productivity in the data. Finally, we embed both the non-linear and the canonical process in a structural, partial equilibrium investment model and estimate capital adjustment costs under both specifications. The model estimated under the non-linear process fits the data much better and has very different implications for the relative importance of fixed versus quadratic costs of adjustment.</p>
+            <p style="padding-top: 1%; font-size: 100%;"><b>JEL Codes:</b> E22, E23</p>
+            <p style="padding-top: 0.5%; font-size: 100%;"><b>Keywords:</b> Firm dynamics, non-linear productivity process, capital adjustment costs, latent variables, quantile regression</p>
+            
+        </div>    
+        <div class = "wrapperb" style="padding-bottom: 0%;"> 
+            <h2 style="padding-top: 3%;">Work in Progress</h2>
+        </div>    
+        <div class = "wrapperb";>   
+            
+            <h3 style="padding-top: 3%; text-align: center;">Endogenous Non-Linear Productivity Dynamics in a Standard Firm Dynamics Model</h3> 
+            <p style="padding-top: 0.75%; text-align: center; color: #666666; font-size: 100%;">with <a style="text-decoration: none;" href="https://borjapetit.github.io/" target="_blank">Borja Petit &#8210 CUNEF</a></p>
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 100%;">Productivity dynamics differ from a standard AR(1) process. First, they are non-linear: productivity persistence and shock variability depend on past productivity. Second, productivity shocks are non-Gaussian: the asymmetry of the shocks' realization and probability of having large shocks depend on the previous productivity level. This paper asks if the firm investment in innovation can rationalize the productivity process observed in the data; and how productivity dynamics are endogenously affected by distortions and policies, such as size-dependent policies, financial frictions or firing costs. We extend the standard firm dynamics model introducing endogenous productivity dynamics. Our methodology does not add a computational burden to the standard firm dynamics model as it delivers closed-form solutions for the innovation decision. In the model Economy, firms can choose through an investment decision the distribution of productivity shocks at a cost proportional to the deviation from a benchmark distribution. We calibrate the model to the Spanish Economy and show that our extension can reconcile the firms' productivity dynamics while keeping the model tractable. To illustrate the relevance of accounting for endogenous non-linear productivity dynamics, we quantify the effects of different frictions and policies using our calibrated model.</p>
+            
+            <h3 style="padding-top: 3%; text-align: center;">Macroeconomics of Poverty</h3>
+            <p style="padding-top: 0.75%; text-align: center; color: #666666; font-size: 100%;">with <a style="text-decoration: none;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner &#8210 CEMFI</a>, <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia &#8210 U. Toronto</a> and <a style="text-decoration: none;" href="http://www.guillaumevdb.net/" target="_blank">Guillaume Vandenbroucke &#8210 FED St. Louis</a></p>
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 100%;">The elimination of poverty is the number one item in the United Nations' sustainable development goals. About 10% of the world population lives in extreme poverty with less than 1.9$ a day, and nearly half of the world population has less than 5.5$ a day. While the poverty rates decline significantly with GDP per capita, there are significant differences across countries that have a similar level of GDP per capita. What accounts for cross-country differences in poverty rates? Who are the poor? Along which economic and social dimensions do they differ from richer households? To answer these questions, we compile and harmonize household surveys for 61 countries from 1960 to 2014. The surveys cover almost the entire spectrum of the world GDP per capita distribution. We find that poor households work predominantly in agriculture, have lower educational attainment, and work more compared to non-poor households. These patterns also hold cross-sectionally within countries, i.e., within a country, households at the bottom of the income distribution are more likely to be in agriculture, have lower education, and higher labor supply. We then build a model with heterogeneous agents that can provide a structural interpretation of these facts, within and across countries. In the model, individuals make decisions on education, labor supply, and which sector of the economy to work. We use the model as a quantitative laboratory to understand the factors behind poverty.</p> 
+            
+        </div>
+        
+        <!-- Main Body - Small Screen (less 900px) --> 
+        <div class = "wrappers" style="padding-top: 0%; padding-bottom: 1%;">
+            <h1 style="padding-top: 1%;">Research</h1>
+            <h2 style="padding-top: 2%;">Working Papers</h2>
+        </div>   
+        <div class = "wrappers" style="padding-top: 0%; padding-bottom: 0%;">
+            <h3 style="padding-top: 2%; text-align: center;"><a style="text-decoration: none" href="files/RuizGarcia_PDandFF.pdf" target="_blank">Financial Frictions, Firm Dynamics and the Aggregate Economy: Insights from Richer Productivity Processes</a></h3>     
+            <p style="padding-top: 0.75%; text-align: center; color: #3b5198; font-size: 200%;">Janeway Institute Working Paper JIWP2103 doi: 10.17863/CAM.74481</p>            
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 175%;">How do financial frictions affect firm dynamics, allocation of resources across firms, and aggregate productivity and output? Is the nature of productivity shocks that firms face essential for evaluating the effects of financial frictions? To answer these questions, I first use a comprehensive dataset of Spanish firms from 1999 to 2014 to estimate and characterize the firms' productivity dynamics. I find that the productivity process is non-linear, as persistence and shock variability depend on past productivity. Furthermore, productivity shocks are non-Gaussian. These dynamics are at odds with those implied by the standard AR(1) process commonly used in the firm dynamics literature. I then build a model of firm dynamics with financial frictions in which productivity shocks are non-linear and non-Gaussian. The model is consistent with a host of evidence on firm dynamics, financial frictions, and firms' financial behavior. In the model Economy, financial frictions affect the firms' life cycle. Without financial frictions, the size gap between an entrant firm and an old one would be reduced by three fourths. Furthermore, profit accumulation, which allows firms to overcome financial frictions, is slow, and it only speeds up when firms are mature. As a consequence, the average exit firm is smaller than it would be without financial frictions. The aggregate effects of financial frictions are significant. They result in misallocation of capital and reduce aggregate productivity by 16%. This figure is only 8% if productivity dynamics evolve according to a standard AR(1) representation. The general equilibrium forces amplify the positive effects of removing financial frictions. Capital deepening and more firms operating in the Economy boost total output, consumption, and wages by around 50%.</p>
+            <p style="padding-top: 1%; font-size: 175%;"><b>JEL Codes:</b> E22, G32, O16</p>
+            <p style="padding-top: 0.5%; font-size: 175%;"><b>Keywords:</b> Firm Dynamics, Non-Linear Productivity Process, Financial Frictions, Misallocation</p>
+            
+            <h3 style="padding-top: 2%; text-align: center;"><a style="text-decoration: none" href="files/FGGGS_NLPandID.pdf" target="_blank">Non-Linear TFP and Investment Dynamics</a></h3>     
+            <p style="padding-top: 0.50%; text-align: center; color: #3b5198; font-size: 200%;">Preliminary</p>  
+            <p style="padding-top: 0.25%; text-align: center; color: #666666; font-size: 175%;">with <a style="text-decoration: none;" href="https://giuliofella.net/" target="_blank">Giulio Fella &#8210 QMUL</a>, <a style="text-decoration: none;" href="https://sites.google.com/view/juliogalvezresearch/" target="_blank">Julio Gálvez &#8210 BdE</a>, <a style="text-decoration: none;" href="https://beatrizgonzalezlopez.weebly.com/" target="_blank">Beatriz González &#8210 BdE</a> and <a style="text-decoration: none;" href="http://tatsuro-senga.net/index.html" target="_blank">Tatsuro Senga &#8210 QMUL</a>
+            </p>            
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 175%;">The nature of productivity shocks is a central feature of models of heterogeneous-firm dynamics. Using firm-level data from Spain, we show that the observed productivity dynamics differ from those implied by the canonical, linear AR(1) representation with normally-distributed shocks. We document that the productivity process features non-linear persistence and non-normality. Motivated by this, we estimate a flexible stochastic process for productivity which allows for these features and compare its implications with the canonical one. We find that the flexible model fits the productivity data much better. We also estimate non-parametric, semi-reduced form empirical investment functions and find that the two processes imply very different responses to productivity shocks. Those estimated under the flexible process fit much better the relationship between investment and productivity in the data. Finally, we embed both the non-linear and the canonical process in a structural, partial equilibrium investment model and estimate capital adjustment costs under both specifications. The model estimated under the non-linear process fits the data much better and has very different implications for the relative importance of fixed versus quadratic costs of adjustment.</p>
+            <p style="padding-top: 1%; font-size: 175%;"><b>JEL Codes:</b> E22, E23</p>
+            <p style="padding-top: 0.5%; font-size: 175%;"><b>Keywords:</b> Firm dynamics, non-linear productivity process, capital adjustment costs, latent variables, quantile regression</p>
+        </div>   
+        <div class = "wrappers" style="padding-top: 1%; padding-bottom: 1%;">    
+            <h2 style="padding-top: 2%;">Work in Progress</h2>
+        </div>   
+        <div class = "wrappers" style="padding-top: 0%;">    
+            <h3 style="padding-top: 2%; text-align: center;">Endogenous Non-Linear Productivity Dynamics in a Standard Firm Dynamics Model</h3> 
+            <p style="padding-top: 0.75%; text-align: center; color: #666666; font-size: 175%;">with <a style="text-decoration: none;" href="https://borjapetit.github.io/" target="_blank">Borja Petit &#8210 CUNEF</a></p>
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 175%;">Productivity dynamics differ from a standard AR(1) process. Particularly, they are non-linear: productivity persistence and shock variability depend on past productivity. Second, productivity shocks are non-Gaussian: the asymmetry and probability of having large shocks depend on the previous productivity levels. This paper asks if firm investment decisions can rationalize the productivity process seen in the data; and, how productivity dynamics are endogenously affected by distortions and policies, such as financial frictions or firing costs. To answer those questions, we extend the standard firm dynamics model introducing endogenous productivity dynamics based on a “control cost” approach from game theory. In particular, firms in the model can choose the distribution of productivity shocks at a cost, which is proportional to the deviation from a benchmark distribution. We calibrate the model to the Spanish economy and show that our extension is able to reconcile the main facts regarding the dynamics of firms' productivity while keeping the model tractable. To illustrate the relevance of accounting for non-linear productivity dynamics endogenously, we quantify the effects of different frictions and policies using our calibrated model. We show that the results are quantitatively different from a framework with a standard AR(1) process and one with non-linear exogenous dynamics.</p>
+            <h3 style="padding-top: 2.5%; text-align: center;">Macroeconomics of Poverty</h3>
+            <p style="padding-top: 0.75%; text-align: center; color: #666666; font-size: 175%;">with <a style="text-decoration: none;" href="https://www.cemfi.es/~guner/" target="_blank">Nezih Guner &#8210 CEMFI</a>, <a style="text-decoration: none;" href="https://www.economics.utoronto.ca/diegor/" target="_blank">Diego Restuccia &#8210 U. Toronto</a> and <a style="text-decoration: none;" href="http://www.guillaumevdb.net/" target="_blank">Guillaume Vandenbroucke &#8210 FED St. Louis</a></p>
+            <p style="padding-top: 1.5%; text-align: center; font-weight: bold;">Abstract</p>
+            <p style="padding-top: 1%; font-size: 175%;">The elimination of poverty is the number one item in the United Nations' sustainable development goals. About 10% of the world population lives in extreme poverty with less than 1.9$ a day, and nearly half of the world population has less than 5.5$ a day. While the poverty rates decline significantly with GDP per capita, there are significant differences across countries that have a similar level of GDP per capita. What accounts for cross-country differences in poverty rates? Who are the poor? Along which economic and social dimensions do they differ from richer households? To answer these questions, we compile and harmonize household surveys for 61 countries from 1960 to 2014. The surveys cover almost the entire spectrum of the world GDP per capita distribution. We find that poor households work predominantly in agriculture, have lower educational attainment, and work more compared to non-poor households. These patterns also hold cross-sectionally within countries, i.e., within a country, households at the bottom of the income distribution are more likely to be in agriculture, have lower education, and higher labor supply. We then build a model with heterogeneous agents that can provide a structural interpretation of these facts, within and across countries. In the model, individuals make decisions on education, labor supply, and which sector of the economy to work. We use the model as a quantitative laboratory to understand the factors behind poverty.</p>          
+        </div>   
+        
+    </body>
+    
+</html>
